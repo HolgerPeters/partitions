@@ -7,11 +7,11 @@ LILYPOND_CMD=lilypond -I$(current_dir) $(LILYPOND_OPTIONS)
 
 # -dno-point-and-click
 
-PROJECT1=contralto1
-PROJECT2=partition
-PROJECT3=contralto2
-PROJECT4=c-partition
-PROJECT5=passacailles
+PROJECT1=boismortier-bp278-ca1
+PROJECT2=boismortier-bp278-partition
+PROJECT3=boismortier-bp278-ca2
+PROJECT4=boismortier-bp278-c-partition
+PROJECT5=boismortier-bp278-passacailles
 
 all: check pdfs delivery
 
