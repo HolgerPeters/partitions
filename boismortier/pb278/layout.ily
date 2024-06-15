@@ -1,4 +1,8 @@
-  \paper {
+ #(ly:font-config-add-font " path/to/font-file ")
+ #(ly:font-config-add-directory " ../../fonts")
+
+
+\paper {
     indent = 0\mm
       myStaffSize = #20
 
