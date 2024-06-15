@@ -1,5 +1,6 @@
- #(ly:font-config-add-font " path/to/font-file ")
- #(ly:font-config-add-directory " ../../fonts")
+ % #(ly:font-config-add-font " path/to/font-file ")
+ #(ly:font-config-add-directory "../../fonts")
+ #(ly:font-config-add-directory "../../../fonts") % compilation happens in ./out so we need to get one up
 
 
 \paper {
