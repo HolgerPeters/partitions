@@ -1,2 +1,2 @@
-\time 2/2 \key g \major
+\time 4/4 \key g \major
 \tempo "Gravement"

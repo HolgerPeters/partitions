@@ -1,24 +1,33 @@
 \transpose c c'' {
+  \key g \major
   \repeat volta 2 {
-    \partial 4 r8 g8                              |
-    d4. e8 d4.\tremblement c8                     |
-    b,4\tremblement \appoggiatura a,8 g,4 b,4. c8 |
-    d4. d8 d4 g4                                  |
-    e4.\tremblement e8 e4 a4                      |
-    fis4\tremblement \appoggiatura e8 d4 g4. fis8 |
-    e4. d8 c4.\tremblement b,8                    |
-    e4. d8 c b, a, g,                             |
-    d2.
+    \partial 8 b8                                               |
+    b8 b, e fis16 (g) fis8 b, b, dis                            | % M  1
+    e8 fis g ( fis16\battement e) dis4-+ r8 fis8                | % M  1
+    g8 a b ( a16\battement g) c'8 fis b a                       | % M  3
+    g8 (fis16\battement e) dis8.-+ e16 e8 b16 (a) b (a) g (fis) | % M  4
+    g8 \appoggiatura fis8 e8 a4. a16 (g) a16 (g) fis (e)        | % M  5
+    fis8 \appoggiatura e8 d8 g4. g16 (fis) g16 (fis) e (d)      | % M  6
+    e8 d c8.-+ b,16 a,4-+ d8 d8                                 | % M  7
+    d16 (b,) b, (d) e8 e e16 (cis) cis (e) fis8 fis             | % M  8
+    fis16 (dis) dis (fis) g8 g  g16 (e) e (g) a8 a              | % M  9
+    a16 (b) g (a) a8.-+ b16 b4.                                   % M 10
   }
   \repeat volta 2 {
-     r8 d8                                        |
-    g4. g8 g fis e d                              |
-    e4. e8 e4 fis8 g                              |
-    c4. c8 c4. d8                                 |
-    b,8 d e fis g2 ~                              |
-    g8 e fis g a2 ~                               |
-    a8 fis8 g a b a g fis                         |
-    e fis g a  fis4.-+ g8                           |
-    g2.
+    b8 |
+    \appoggiatura a16 gis8 \appoggiatura fis16 e8 c8.-+b,16 c8 \appoggiatura b,16 a,8 c d |
+    e2 ~ e16 a gis ( a) b,8.-+ a,16 |
+    a,8 a16 b c'4 r16 d16 fis a b4    |
+    r16 c e g a4 r16 b, dis fis g4 ~ |
+    g16 (a) fis (g) e (g) fis (e) dis8-+ \appoggiatura c16 b,8 fis16 (g) fis (b) |
+    fis8. g16 fis16 (g) e (fis) d8.-+ cis16 cis8.-+ b,16 |
+    b,8  d8 dis4-+ r8 dis8 e4                            |
+    r8 e8 fis4-+ r8 fis8 g16 (fis) g(fis)                |
+    e8 c'16 (b) c' (b) a (g) fis8-+ b b dis\battement    |
+    e8 b16 (a) g (fis) e(dis) e8 b b a                   |
+    g8.-+ fis16 fis8.-+ e16 e8 c c8 b,16-+ (a,)          |
+    b,8 e a,16 (b,) g, (a,) fis,8-+ b, b, dis,           |
+    e,8 b,16 (a,) g, (fis,) e, (dis,) e,8 b, b, a,       |
+    g,8.-+ fis,16 fis,8.-+ e,8 e,4. \fine
   }
 }

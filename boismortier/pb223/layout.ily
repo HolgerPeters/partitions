@@ -31,7 +31,7 @@
 	}
 	\column {
 	\right-align { \fromproperty #'header:composer }
-	\right-align {   "op. 11 n° 2, PB 278" }
+	\right-align {   "Œuvre 2 n°1, PB 223" }
 	}
       }
     }
