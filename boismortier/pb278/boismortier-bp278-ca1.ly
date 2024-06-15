@@ -2,7 +2,7 @@
 \include "stemside.ily"
 
 \book {
-  \include "mypaper.ily"
+  \include "layout.ily"
   \header {
     \include "titre.ily"
     instrument = "Contralto 1"
