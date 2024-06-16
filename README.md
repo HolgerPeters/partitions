@@ -5,12 +5,12 @@ Full scores of recorder music.
 
 ## Released Scores
 
-| Composer                    | Title                             | Opus                | Score        | Status  | :link: Scores     |
-|-----------------------------|-----------------------------------|:-------------------:|--------------|:-------:|-------------------|
-| Joseph Bodin de Boismortier | 6 Sonates à 2 flûtes traversières | op. 2  n° 1, PB223  | flûte 1      | 🚧      |                   |
-| Joseph Bodin de Boismortier | 2ⁱᵉᵐᵉ Suite a deux musettes       | op. 11  n° 2, PB278 | partition    | ✅      | [bp278-partition] |
-|                             |                                   | op. 11  n° 2, PB278 | contralto 1  | ✅      | [bp278-ca1]       |
-|                             |                                   | op. 11  n° 2, PB278 | contralto 2  | ✅      | [bp278-ca1]       |
+| Composer                    | Title                             | Opus              | Rendered Score (PDF)            |
+|-----------------------------|-----------------------------------|:-----------------:|---------------------------------|
+| Joseph Bodin de Boismortier | 6 Sonates à 2 flûtes traversières | PB223 (op.2 n°1)  | 🚧 flûte 1                      |
+| Joseph Bodin de Boismortier | 2ⁱᵉᵐᵉ Suite a deux musettes       | PB278 (op.11 n°2) | ✅ partition   [bp278-partition]|
+|                             |                                   | PB278 (op.11 n°2) | ✅ contralto 1 [bp278-ca1]      |
+|                             |                                   | PB278 (op.11 n°2) | ✅ contralto 2 [bp278-ca1]      |
 
 
 
