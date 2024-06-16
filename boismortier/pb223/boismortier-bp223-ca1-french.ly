@@ -7,6 +7,6 @@
     \include "titre.ily"
     instrument = "Flûte 1"
   }
-  \include "01-allemande/contralto1.ily"
+  \include "01-allemande/flute1-french.ily"
 }
 % vim:sw=2:ts=2:et:

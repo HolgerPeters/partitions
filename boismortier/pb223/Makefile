@@ -1,5 +1,4 @@
 OUTPUT_DIR=out
-DELIVERY_DIR=delivery
 mkfile_path := $(dir $(abspath $(lastword $(MAKEFILE_LIST))))
 
 current_dir:=$(shell pwd)
@@ -9,25 +8,29 @@ util_dir:=$(abspath $(util_dir))
 LILYPOND_OPTIONS=--loglevel=WARN -ddelete-intermediate-files -dno-protected-scheme-parsing -dno-point-and-click
 LILYPOND_CMD=lilypond -I$(current_dir) -I$(util_dir) $(LILYPOND_OPTIONS)
 
-PROJECT1=boismortier-bp223-ca1
+SRCS=$(wildcard *.ly)
+PDFS=$(patsubst %.ly,$(OUTPUT_DIR)/%.pdf,$(SRCS))
 
-all: pdfs delivery
+# We use INCLUDES here so that we get rebuilds in case any include file
+# changes. This means that unnecessary more rebuilds are triggered, if a *.ily
+# file changes.
+INCLUDES := $(shell find $(mkfile_path) -iname '*.ily')
 
-out:
-	mkdir -p out
+all: $(PDFS)
 
-pdfs: out
-	$(LILYPOND_CMD) -o '$(OUTPUT_DIR)/$(PROJECT1)' '$(PROJECT1)'
+$(OUTPUT_DIR):
+	mkdir -p $@
 
-delivery:
-	@mkdir -p $(DELIVERY_DIR)/
-	@if [ -e '$(OUTPUT_DIR)/$(PROJECT1).pdf' ]; then mv -fv '$(OUTPUT_DIR)/$(PROJECT1).pdf' $(DELIVERY_DIR)/; fi
-	@if [ -e $(OUTPUT_DIR)/$(PROJECT1)-1.midi ]; then tar zcf $(DELIVERY_DIR)/$(PROJECT1)-midi.tar.gz $(OUTPUT_DIR)/$(PROJECT1).midi $(OUTPUT_DIR)/$(PROJECT1)-[0-9]*.midi; fi
+$(OUTPUT_DIR)/%.pdf: %.ly $(INCLUDES)
+	mkdir -p $(OUTPUT_DIR)
+	echo $(INCLUDES)
+
+	$(LILYPOND_CMD) -o $(basename $@) $<
 
 clean:
-	@rm -f $(OUTPUT_DIR)/$(PROJECT1)*
+	@rm -f $(OUTPUT_DIR)
 
-.PHONY: parts pdfs clean all delivery
+.PHONY: clean all
 
 notizen.pdf: notizen.tex notes.cls
 	latexmk --shell-escape --pdflua notizen.tex

@@ -4,6 +4,7 @@
   }
   \new Staff \with {
     midiInstrument = "recorder"
+    \consists "Ambitus_engraver"
   } {
     << \clef french {\include "global.ily" \include "voix1.ily" }>>
   }
