@@ -11,6 +11,10 @@ jobs:
       uses: holgerpeters/lilypond-github-action@main
       with:
         path: ./boismortier/pb278
+    - name: Generate PDF music sheets
+      uses: holgerpeters/lilypond-github-action@main
+      with:
+        path: ./boismortier/pb223
     - name: Upload PDFs
       uses: actions/upload-artifact@v4
       with:
