@@ -23,8 +23,6 @@ $(OUTPUT_DIR):
 
 $(OUTPUT_DIR)/%.pdf: %.ly $(INCLUDES)
 	mkdir -p $(OUTPUT_DIR)
-	echo $(INCLUDES)
-
 	$(LILYPOND_CMD) -o $(basename $@) $<
 
 clean:
