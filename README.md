@@ -5,11 +5,12 @@ Full scores of recorder music.
 
 ## Released Scores
 
-| Composer                    | Opus  | Score        | Status             | :link: Scores     |
-|-----------------------------|-------|:------------:|:------------------:|:-----------------:|
-| Joseph Bodin de Boismortier | PB278 | partition    | :white_check_mark: | [bp278-partition] |
-|                             | PB278 | contralto 1  | :white_check_mark: | [bp278-ca1]       |
-|                             | PB278 | contralto 2  | :white_check_mark: | [bp278-ca1]       |
+| Composer                    | Opus  | Score        | Status  | :link: Scores     |
+|-----------------------------|:-----:|--------------|:-------:|-------------------|
+| Joseph Bodin de Boismortier | PB223 | flûte 1      | 🚧      |                   |
+| Joseph Bodin de Boismortier | PB278 | partition    | ✅      | [bp278-partition] |
+|                             | PB278 | contralto 1  | ✅      | [bp278-ca1]       |
+|                             | PB278 | contralto 2  | ✅      | [bp278-ca1]       |
 
 
 
