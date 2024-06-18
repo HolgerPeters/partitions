@@ -6,7 +6,7 @@
     e4 f g                                                 |
     g c8 b, c4                                             |
     d8 c d e f d                                           |
-    e4\tremblement d8 e8 c4                                |
+    e4\tre d8 e8 c4                                |
     e4 f g                                                 |
     g4 c8 b, c4                                            |
     d8 e f e d e                                           |
@@ -19,7 +19,7 @@
     d4 e f                                                 |
     f4 e8 d8 e4                                            |
     d8 e f e d c                                           |
-    b,4\tremblement a,8 b, g,4                             |
+    b,4\tre a,8 b, g,4                             |
     d4 e f                                                 |
     f4 e8 f g4                                             |
     c8 d e d c b,                                          |

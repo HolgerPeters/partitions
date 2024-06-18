@@ -13,5 +13,5 @@ dynamicDirection =
 
 noteSide = \dynamicDirection #NOTESIDE \etc
 
-battement =\noteSide\prall
-tremblement =\noteSide -+
+bat =\noteSide\prall
+tre =\noteSide -+

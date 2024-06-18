@@ -9,7 +9,7 @@
     d8 c b, a, g,4                                          |
     c'4 b8 a g c'                                          |
     e4 f8 e d g                                            |
-    c4 d b,\tremblement                                    |
+    c4 d b,\tre                                    |
     c2.
   }
   \repeat volta 2 {

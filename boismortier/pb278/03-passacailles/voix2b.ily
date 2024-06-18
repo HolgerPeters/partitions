@@ -2,11 +2,11 @@
   g2 r4            |
   r4 b,8 a, b, c   |
   d4 g, c          | % 50
-  b,8 c a,2\tremblement      |
+  b,8 c a,2\tre      |
   g2 r4            |
   r4 b,8 a, b, c   |
   d4 g, c          |
-  b,8 c a,2\tremblement      |
+  b,8 c a,2\tre      |
   g,4 b, b,        |
   c4 b,8 c d b,    |
   c8 b, a, b, c a, |

@@ -17,20 +17,20 @@
     \repeat volta 2 {
       fis4 g2               |
       d4. c8 b,4            |
-      c4 b,\battement a,        |
+      c4 b,\bat a,        |
       b,2
       \appoggiatura a,8 g,4 |
       b,2 c4                |
       d4 b, c               |
       d4. e8 fis g          |
-      fis4.\tremblement e8 d4         |
+      fis4.\tre e8 d4         |
       b,8 a, b, c b,4       |
       b,8 a, b, c b,4       |
       c8 b, c d b, c      |
       a,4 fis8 g a fis      |
-      g4 fis\battement e        |
+      g4 fis\bat e        |
       d c b,                |
-      c4 a,2\tremblement              |
+      c4 a,2\tre              |
       g,2.
     }
     \fine \break

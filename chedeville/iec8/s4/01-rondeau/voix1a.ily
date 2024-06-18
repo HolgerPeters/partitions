@@ -3,11 +3,10 @@
 \time 3/4
 \transpose c c'' {
   \partial 4 e4\tempo "Lentement"  |
-  f4 ( e4\tremblement) d |
+  f4 ( e4\tre) d |
   c g, c |
-  d\tremblement c d |
+  d\tre c d |
   e4^\ltoe \appoggiatura d16 c4 e4 |
   g4 f e d e f e d c b, a, |
-  g,4 c b,\tremblement
+  g,4 c b,\tre
 }
-

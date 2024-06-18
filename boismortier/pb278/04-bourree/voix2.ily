@@ -13,7 +13,7 @@
   \repeat volta 2 {
   \partial 4 d'4 |
     d'4 g g g' |
-    g'\battement fis'2 g'4 |
+    g'\bat fis'2 g'4 |
     b4 c'8 b a4 g |
     d'4 d' d'8 c' d' e' |
     c'4 c' c'8 b c' d' |

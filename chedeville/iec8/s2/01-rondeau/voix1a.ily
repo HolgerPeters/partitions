@@ -5,14 +5,14 @@
 \transpose c c'' {
   \repeat volta 2 {
     \tempo "gay"
-    \partial 2 c4 b,4\tremblement         |
+    \partial 2 c4 b,4\tre         |
     c4 g, g, a,8 b,                       |
-    c2 c4 b,4\tremblement                 |
+    c2 c4 b,4\tre                 |
     c4 d e f                              |
-    e4\tremblement d c b,\tremblement     |
+    e4\tre d c b,\tre     |
     c4 g, g, a,8 b,                       |
     c2 c4 d                               |
-    e8 g f e d4.\tremblement  c8          |
+    e8 g f e d4.\tre  c8          |
     c2
   }
   \repeat volta 2 {
@@ -20,35 +20,35 @@
     g c e f                               |
     g2 g4 a                               |
     g4 a8 b c'4 g                          |
-    e\tremblement c e f                   |
+    e\tre c e f                   |
     g c e f                               |
     g2 g4 a                               |
     g4 a8 b c'4 g                          |
-    e2\tremblement c4 b,4\tremblement     |
+    e2\tre c4 b,4\tre     |
     c4 g, g, a,8 b,                       |
-    c2 c4 b,\tremblement                  |
+    c2 c4 b,\tre                  |
     c4 d e f                              |
-    e\tremblement d c b,\tremblement      |
+    e\tre d c b,\tre      |
     c4 g, g, a,8 b,                       |
     c2 c4 d4                              |
-    e8 g f e d4.\tremblement c8           |
+    e8 g f e d4.\tre c8           |
     c2 e4 e                               |
     d d c g,                              |
-    e4. f8 f4.\tremblement e16 f          |
+    e4. f8 f4.\tre e16 f          |
     g1 ~                                  |
     g1                                    |
     g1 ~                                  |
     g2 c'4 c'                             |
     g2 c'4 c'                             |
     g4 a8 g a g f e                       |
-    d2\tremblement c4 b,4\tremblement     |
+    d2\tre c4 b,4\tre     |
     c4 g, g, a,8 b,                       |
-    c2 c4 b,4\tremblement                 |
+    c2 c4 b,4\tre                 |
     c4 d e f                              |
-    e\tremblement d c b,4\tremblement    |
+    e\tre d c b,4\tre    |
     c4 g, g, a,8 b,                       |
     c2 c4 d |
-    e8 g f e d4.\tremblement c8           |
+    e8 g f e d4.\tre c8           |
     c2
   }
 }
