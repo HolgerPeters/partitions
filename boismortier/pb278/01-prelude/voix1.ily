@@ -2,7 +2,7 @@
   \repeat volta 2 {
     \partial 4 r8 g8                      |
     d4. e8 d4.\tre c8                     |
-    b,4\tre \appoggiatura a,8 g,4 b,4. c8 |
+    b,4\tre \appoggiatura a,8 g,4 b,4.\tre c8 |
     d4. d8 d4 g4                          |
     e4.\tre e8 e4 a4                      |
     fis4\tre \appoggiatura e8 d4 g4. fis8 |

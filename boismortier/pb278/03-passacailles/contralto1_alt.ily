@@ -8,11 +8,11 @@
     } {
       << \clef french {
 	\include "global.ily"
-	\key b \minor
+	\key f \major
 	\include "voix1a.ily"
 	\key g \major
 	\include "voix1b.ily"
-	\key b \minor
+	\key f \major
 	\include "voix1c.ily"
     }>>
     }

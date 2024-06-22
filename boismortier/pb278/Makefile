@@ -5,7 +5,8 @@ current_dir:=$(shell pwd)
 util_dir:=$(shell pwd)/../../util
 util_dir:=$(abspath $(util_dir))
 
-LILYPOND_OPTIONS=--loglevel=WARN -ddelete-intermediate-files -dno-protected-scheme-parsing -dno-point-and-click
+LILYPOND_OPTIONS=--loglevel=WARN -ddelete-intermediate-files -dno-protected-scheme-parsing
+# -dno-point-and-click
 LILYPOND_CMD=lilypond -I$(current_dir) -I$(util_dir) $(LILYPOND_OPTIONS)
 
 SRCS=$(wildcard *.ly)
