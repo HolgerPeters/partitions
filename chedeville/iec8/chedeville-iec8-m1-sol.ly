@@ -38,5 +38,40 @@
     \include "s3/03-menuet/m1-sol.ily"
     \include "s3/04-provencale/m1-sol.ily"
   }
+  \bookpart {
+    \include "layout.ily"
+    \header {
+      \include "s4/titre.ily"
+      instrument = "Musette 1"
+    }
+    \include "s4/01-rondeau/m1-sol.ily"
+    \include "s4/02-musette/m1-sol.ily"
+    \include "s4/03-rigaudon/m1-sol.ily"
+    \include "s4/04-menuet/m1-sol.ily"
+    \include "s4/05-le-tapage/m1-sol.ily"
+  }
+  \bookpart {
+    \include "layout.ily"
+    \header {
+      \include "s5/titre.ily"
+      instrument = "Musette 1"
+    }
+    \include "s5/01-rondeau/m1-sol.ily"
+    \include "s5/02-rondeau/m1-sol.ily"
+    \include "s5/03-menuet/m1-sol.ily"
+    \include "s5/04-menuet/m1-sol.ily"
+    \include "s5/05-la-auterelle/m1-sol.ily"
+  }
+  \bookpart {
+    \include "layout.ily"
+    \header {
+      \include "s6/titre.ily"
+      instrument = "Musette 1"
+    }
+    \include "s6/01-la-difficile/m1-sol.ily"
+    \include "s6/02-chaconne/m1-sol.ily"
+    \include "s6/03-menuet/m1-sol.ily"
+    \include "s6/04-la-chicane/m1-sol.ily"
+  }
 }
 % vim:sw=2:ts=2:et:

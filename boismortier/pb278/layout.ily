@@ -16,8 +16,8 @@
 
     scoreTitleMarkup = \markup {
       \fill-line {
-        \null
         \fontsize #2 \bold \fromproperty #'header:piece
+        \null
        \null %\fontsize #1 \bold \fromproperty #'header:opus
       }
     }
