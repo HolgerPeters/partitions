@@ -14,36 +14,36 @@
       {fis2.\tre}
     }
     \repeat volta 2 {
-      a4 b2                                         |
-      a8 g fis e d4                                 |
-      e d\battement c                               |
+      a4 b2                          |
+      a8 g fis e d4                  |
+      e d\battement c                |
       d2
-      \appoggiatura c8 b,4                          |
-      d4 g, a,                                      |
-      a,\tre g, a,                                  |
-      b, c8 b, a, g,                                |
-      a,2.\tre                                      |
-      d8 c d e d4                                   |
-      d8 c d e d4                                   |
-      e4 fis g                                      |
-      d2.                                           |
-      g4 fis\battement e                            |
-      a d g                                         |
-      \appoggiatura fis4 e4 fis2\tre                |
+      \appoggiatura c8 b,4           |
+      d4 g, a,                       |
+      a,\tre g, a,                   |
+      b, c8 b, a, g,                 |
+      a,2.\tre                       |
+      d8 c d e d4                    |
+      d8 c d e d4                    |
+      e4 fis g                       |
+      d2.                            |
+      g4 fis\battement e             |
+      a d g                          |
+      \appoggiatura fis4 e4 fis2\tre |
       g2.
     }
 
     \fine \break
     \key g \minor
     \repeat volta 2 {
-      bes,8 a, bes, c d4                            |
-      g,4 g fis                                     |
-      g2 a4                                         |
-      bes2.                                         |
-      a4 bes \appoggiatura a8 g4                    |
-      a4 \appoggiatura g8 fis4 g                    |
-      a4 bes2                                       |
-      a2.                                           |
+      bes,8 a, bes, c d4         |
+      g,4 g fis                  |
+      g2 a4                      |
+      bes2.                      |
+      a4 bes \appoggiatura a8 g4 |
+      a4 \appoggiatura g8 fis4 g |
+      a4 bes2                    |
+      a2.\tre                    |
     }
 
     \repeat volta 2 {
