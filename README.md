@@ -18,7 +18,7 @@ of the alto recorder.
 
 * ✅ [partition][bp278-partition]
 * ✅ [contralto 1][bp278-ca1]
-* ✅ [contralto 2][bp278-ca1]
+* ✅ [contralto 2][bp278-ca2]
 
 #### Six Sonates à 2 flûtes traversières
 Sonatas for the baroque traverso.
