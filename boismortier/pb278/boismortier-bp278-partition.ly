@@ -1,4 +1,6 @@
 \version "2.24.1"
+#(use-modules (guile-user))
+
 \include "stemside.ily"
 
 \book {

@@ -1,7 +1,7 @@
 \transpose c c'' {
   \repeat volta 2 {
-    \partial 2 g4 a                            |
     \repeat segno 2 {
+    \partial 2 g4 a                            |
       d4 c8 b, c4 d                            |
       b,4\tre \appoggiatura a,8 g,4 b, c8 d    |
       e4 d8 e fis4 g                           |
@@ -38,7 +38,7 @@
       d4 e8 d c4 b,                            |
       a,2\tre d4 d                             |
       d4 c8 b, a,4 g,                          |
-      d2 g4 a
+      d2 
     }
   }
 }

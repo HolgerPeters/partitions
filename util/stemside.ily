@@ -15,3 +15,7 @@ noteSide = \dynamicDirection #NOTESIDE \etc
 
 battement =\noteSide\prall
 tre =\noteSide -+
+
+respi =
+#(define-music-function () ()
+  (when annotations #{ \breathe #}))
