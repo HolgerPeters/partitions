@@ -1,0 +1,15 @@
+\version "2.24.1"
+#(use-modules (guile-user))
+
+\include "stemside.ily"
+
+\book {
+  \include "layout.ily"
+  \header {
+    \include "titre.ily"
+  }
+  \include "01-ouverture/partition.ily"
+  \include "04-menuet/partition.ily"
+  \include "05-sarabande/partition.ily"
+}
+% vim:sw=2:ts=2:et:
