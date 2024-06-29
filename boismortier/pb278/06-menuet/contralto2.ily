@@ -5,7 +5,7 @@
   \new Staff \with {
     midiInstrument = "recorder"
   } {
-    << \clef french { \include "global.ily" \include "voix2.ily"} >>
+    << \clef french {\include "voix2.ily"} >>
   }
   \layout { }
   \midi { }

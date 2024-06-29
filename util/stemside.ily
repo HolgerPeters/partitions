@@ -18,4 +18,18 @@ tre =\noteSide -+
 
 respi =
 #(define-music-function () ()
-  (when annotations #{ \breathe #}))
+  (if annotations #{ \breathe #} #{ #}))
+
+ifAnno =
+#(define-music-function
+   (ifAnnotated ifOrig)
+   (ly:music? ly:music?)
+  (if annotations ifAnnotated ifOrig))
+
+StaffDefaults = \with {
+  \override Rest.style = #'classical
+}
+
+ScoreDefaults = \with {
+  \override Score.fineText = "Fin"
+}

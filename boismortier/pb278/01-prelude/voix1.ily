@@ -1,3 +1,5 @@
+\time 2/2 \key g \major
+\tempo "Gravement"
 \transpose c c'' {
   \repeat volta 2 {
     \partial 4 r8 g8                                |
@@ -21,4 +23,5 @@
     e fis g a  fis4.\tre g8                         |
     g2.
   }
+  \fine
 }

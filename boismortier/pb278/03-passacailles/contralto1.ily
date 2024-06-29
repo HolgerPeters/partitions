@@ -5,16 +5,15 @@
   \new Staff \with {
     midiInstrument = "recorder"
   } {
-    << \clef french {\include "global.ily"
-	\include "global.ily"
-	\key g \minor
+      << \clef french {
+	\include "minorKey.ily"
 	\include "voix1a.ily"
 	\key g \major
 	\include "voix1b.ily"
-	\key g \minor
+	\include "minorKey.ily"
 	\include "voix1c.ily"
     }>>
   }
-  \layout { }
+  \include "layoutDefaults.ily"
   \midi { }
 }

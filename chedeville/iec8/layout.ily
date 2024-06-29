@@ -15,9 +15,9 @@
 
     scoreTitleMarkup = \markup {
       \fill-line {
-        \fontsize #2 \bold \fromproperty #'header:piece
         \null
-       \null %\fontsize #1 \bold \fromproperty #'header:opus
+        \fontsize #2 \bold \fromproperty #'header:piece
+        \null %\fontsize #1 \bold \fromproperty #'header:opus
       }
     }
     bookTitleMarkup = \markup {
@@ -31,7 +31,8 @@
 	}
 	\column {
 	\right-align { \fromproperty #'header:composer }
-	\right-align {   "Œuvre ???, IEC 8" }
+	\right-align { "Œuvre ???"}
+	\right-align { "IEC 8" }
 	}
       }
     }

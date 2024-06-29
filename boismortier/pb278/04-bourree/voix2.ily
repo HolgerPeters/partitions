@@ -1,4 +1,6 @@
 \transpose c c' {
+  \once \override Staff.TimeSignature.style = #'single-digit
+  \time 2/2 \key g \major
   \repeat volta 2 {
   \partial 4 b4            |
     g a b c'               |
@@ -20,6 +22,6 @@
     b4 b b8 a b c'         |
     a4 b8 c' d'4 d'        |
     g2.
-    \fine
   }
+  \fine
 }
