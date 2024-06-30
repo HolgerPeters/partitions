@@ -13,6 +13,7 @@
   \include "03-passacailles/partition.ily"
   \include "04-bourree/partition.ily"
   \include "05-brunette/partition.ily"
+  \pageBreak
   \include "06-menuet/partition.ily"
 }
 % vim:sw=2:ts=2:et:

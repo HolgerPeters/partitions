@@ -1,4 +1,6 @@
 \transpose c c'' {
+  \time 2/2 \key g \major
+  \tempo "Modérément"
   \repeat volta 2 {
     \partial 2
     b,4

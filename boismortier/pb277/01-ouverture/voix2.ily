@@ -7,7 +7,7 @@
     b,8 b, b, d g, g, g, g,  |
     c4. c8 c4. d8            |
     e8 c d e e4.\tre (d16 e) |
-    f2 f4. f8                |
+    f2\respi f4. f8                |
     f4 e8 d e4. f8           |
     d4.\tre g8 e8 e e g      |
     b,8 g, g, g, c4. d8      |
@@ -17,9 +17,9 @@
     {\time 3/8 b,8 g,8 r     | }
   }
   \repeat volta 2 {
-    r4.                      |
-    r4.                      |
-    r4.                      |
+    R4.                      |
+    R4.                      |
+    R4.                      |
     r4 g8                    |
     e8 f g                   |
     c d e                    |
@@ -35,7 +35,7 @@
     g, g f                   |
     e d c                    |
     b, a, g,                 |
-    r4. |
+    R4. |
     r4 g8 |
     e f g                    |
     c d e                    |
@@ -49,7 +49,7 @@
     d b, d                   |
     c a, c                   |
     b, g, r8                 |
-    r4. r4.
+    R4. R4.
     c8 c c                   |
     d d d                    |
     e d c                    |

@@ -1,43 +1,77 @@
 \transpose c c'' {
-  \repeat segno 2 {
-    \repeat volta 2 {
-      \partial 2 g4 a                          |
-      d4 c8 b, c4 d                            |
-      b,4\tre \appoggiatura a,8 g,4 b, c8 d    |
-      e4 d8 e fis4 g                           |
-      fis4\tre \appoggiatura  e8 d4 \respi g a |
-      d4 c8 b, c4 d                            |
-      b,4\tre \appoggiatura a,8 g,4 b,8 c d a, |
-      b, c d e a,4.\tre g,8                    |
-      \partial 2 g,2\fermata \fine \respi
-    }
-    \partial 2
-    b4 a8\battement g                          |
-    a4 d e d8\battement c                      |
-    d4 g, d e8 f                               |
-    e4 fis g a                                 |
-    d2\respi e8 d e fis                        |
-    d2 e8 d e fis                              |
-    d2 b,4 c8 d                                |
-    a,4 b, c b,                                |
-    a,2\tre\respi  g4 a                        |
-    d4 c8 b, c4 d                              |
-    b,4\tre \appoggiatura a,8 g,4 b, c8 d      |
-    e4 d8 e fis4 g                             |
-    fis4\tre \appoggiatura e8 d4 \respi  g a   |
-    d4 c8 b, c4 d                              |
-    b,4\tre \appoggiatura a,8 g,4 b,8 c d a,   |
-    b,8 c d e a,4.\tre g,8                     |
-    g,2\respi
-
-    b,4 c                                      |
-    d4 c8 b, e4 e                              |
-    d2 g4 g                                    |
-    fis4\battement  e8 d g4 g                  |
-    fis4\battement e8 d b,4 c                  |
-    d4 e8 d c4 b,                              |
-    a,2\tre\respi d4 d                         |
-    d4 c8 b, a,4 g,                            |
-    d2
+  \time 3/8
+  \tempo "Gracieusement"
+  \repeat volta 2 {
+    e8 f g                         |
+    \appoggiatura f8 e8 \appoggiatura d8 c8 d  |
+    e8. f16 d8\battement                       |
+    c4 g,8                                     |
+    e8 f g                                     |
+    \appoggiatura f8 e8 \appoggiatura d8 c8 d8 |
+    e8. f16 d8\battement                       |
+    c4.
   }
+  g,8 a,4                                      |
+  g,4 a,8                                      |
+  b,8 c4                                       |
+  g,4 a,8                                      |\break
+  b,8 c4                                       |
+  d4 e8                                        |
+  f8 e4\battement                              |
+  d4.\tre                                      |
+  e8 f g                                       |
+  \appoggiatura f8 e8 \appoggiatura d8 c8 d8   |
+  e8. f16 d8\battement                         |
+  c4 g,8                                       |
+  e8 f g                                       |
+  \appoggiatura f8 e8 \appoggiatura d8 c8 d8   |
+  e8. f16 d8\battement |
+  c4.                                          |\break
+  g8 c'4                                       |
+  b16 c' b a g f                               |
+  e d c d e f                                  |
+  g4 d8                                        |
+  f4 e8                                        |
+  d8 g c                                       |
+  b,4\tre c8                                   |
+  d4 g,8                                       |
+  g16 f g a g8                                 |
+  g8 f16\battement e f8                        |
+  f16 e f g f8                                 |\break
+  f8 e16\battement d e8                        |
+  a16 g f e d c                                |
+  g4.                                          |
+  f16 e d c b, a,                              |
+  b,8.\tre a,16 g,8                            |
+  e8 f g                                       |
+  \appoggiatura f8 e8 \appoggiatura d8 c8 d8   |
+  e8. f16 d8\tre                               |
+  c4 g,8                                       |
+  e8 f g                                       |
+  \appoggiatura f8 e8 \appoggiatura d8 c8 d8   |
+  e8. f16 d8\battement                         |\break
+  c4.                                          |
+  e4\tre f8                                    |
+  g8 c'16 b a8                                 |
+  e4\tre f8                                    |
+  g8 c'16 b a8                                 |
+  e4\tre f8                                    |
+  g8 f16 e d c                                 |
+  b,4\tre c8 d4.                               |
+  d16 e f8 f                                   |
+  f8\tre e a                                   |
+  g c'4                                        |\break
+  b8.\tre a16 g8                               |
+  \stemDown e16 f g8 \stemUp g, \stemNeutral  |
+  g, e4                                        |
+  d16 e f e d c                                |
+  g4.                                          |
+  e8 f g                                       |
+  \appoggiatura f8 e8 \appoggiatura d8 c8 d8   |
+  e8. f16 d8\battement                         |
+  c4 g,8                                       |
+  e8 f g                                       |
+  e16\battement d c e d f                      |
+  e d e f d e                                  |
+  c4. \fine
 }

@@ -16,10 +16,11 @@
 
     scoreTitleMarkup = \markup {
       \fill-line {
-        \fontsize #2 \bold \fromproperty #'header:piece
         \null
+        \fontsize #2 \bold \fromproperty #'header:piece
        \null %\fontsize #1 \bold \fromproperty #'header:opus
       }
+      \fill-line { "" "" "" }
     }
     bookTitleMarkup = \markup {
       \fill-line {

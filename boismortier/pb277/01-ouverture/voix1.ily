@@ -7,9 +7,9 @@
     f4. f8 f d e f                         |
     e4\tre \appoggiatura d16 c4 e4.\tre f8 |
     g8 e f g g4.\tre (f16 g)               |
-    a2 d4. d8                              |
+    a2\respi d4. d8                              |
     d4 c8 b, c4. d8                        |
-    b,4\tre \appoggiatura a8 g,4  c4. c8   |
+    b,4\tre \appoggiatura a,8 g,4  c4. c8   |
     d4. e8 e4.\tre d8                      |
   }
   \alternative {

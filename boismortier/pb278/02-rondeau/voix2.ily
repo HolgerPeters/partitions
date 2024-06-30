@@ -1,7 +1,10 @@
 \transpose c c'' {
+  \once \override Staff.TimeSignature.style = #'single-digit
+  \time 2/2 \key g \major
+  \tempo "Gaiement"
   \repeat volta 2 {
     \repeat segno 2 {
-    \partial 2 b,4 c                      |
+      \partial 2 b,4 c                      |
       b,4 g a, fis                        |
       g d g, a,8 b,                       |
       c4 b, a, g,                         |

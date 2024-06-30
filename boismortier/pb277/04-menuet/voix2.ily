@@ -2,7 +2,7 @@
   \once \override Staff.TimeSignature.style = #'single-digit
   \time 3/4
   \repeat volta 2 {
-    r2.               |
+    R2.               |
     c8 d e f g4       |
     c4 c c            |
     c8 d e f g e      |
@@ -19,7 +19,7 @@
     }
   }
   \repeat volta 2 {
-    r2. |
+    R2. |
     g,8 a, b, c d4 |
     g,4 g, g, |
     g,8 a, b, c d b, |
@@ -27,7 +27,7 @@
     d4 c8 d b,4 |
     e4 d c |
     b,8 a, b, c b,4 |
-    r2. |
+    R2. |
     g,8 a, b, c d4 |
     g,4 g, g, |
     g,8 a, b, c d b, |

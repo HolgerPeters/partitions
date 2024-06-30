@@ -3,6 +3,7 @@
  #(ly:font-config-add-directory "../../../fonts") % compilation happens in ./out so we need to get one up
 
 
+
 \paper {
     indent = 0\mm
       myStaffSize = #20

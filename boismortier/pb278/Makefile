@@ -25,7 +25,7 @@ $(OUTPUT_DIR):
 
 $(OUTPUT_DIR)/%-annotated.pdf: %.ly $(INCLUDES)
 	mkdir -p $(OUTPUT_DIR)
-	$(LILYPOND_CMD) '--define-default=annotations=#t' --evaluate='(define-public annotations #t)' -o $(basename $@) $<
+	$(LILYPOND_CMD) --evaluate='(define-public annotations #t)' -o $(basename $@) $<
 
 $(OUTPUT_DIR)/%-release.pdf: %.ly $(INCLUDES)
 	mkdir -p $(OUTPUT_DIR)

@@ -7,7 +7,6 @@
       midiInstrument = "recorder"
     } {
       << \clef french {
-	\include "global.ily"
 	\key g \minor
 	\include "voix1a.ily"
 	\key g \major
@@ -19,7 +18,7 @@
     \new Staff \with {
       midiInstrument = "recorder"
     } {
-      << \clef french { \include "global.ily"
+      << \clef french {
 	\key g \minor
 	\include "voix2a.ily"
 	\key g \major

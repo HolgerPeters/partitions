@@ -18,4 +18,4 @@ tre =\noteSide -+
 
 respi =
 #(define-music-function () ()
-  (when annotations #{ \breathe #}))
+  (if annotations #{ \breathe #} #{ #}))
