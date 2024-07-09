@@ -16,16 +16,7 @@
     }
     \layout {}
   }
-  \score {
-    \new StaffGroup <<
-      \new Staff \with { midiInstrument = "recorder" } { << \unfoldRepeats { \include "04-bourree/voix1.ily" } >> }
-      \new Staff \with { midiInstrument = "recorder" } { << \unfoldRepeats { \include "04-bourree/voix2.ily" } >> }
-    >>
-    \midi {
-      \tempo 2 = 50
-    }
-    \layout {}
-  }
+  \include "02-rondeau/praxis.ily"
   \score {
     \new StaffGroup <<
       \new Staff \with { midiInstrument = "recorder" } { << \unfoldRepeats { \include "05-brunette/voix1.ily" } >> }
