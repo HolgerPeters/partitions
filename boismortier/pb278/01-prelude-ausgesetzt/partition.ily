@@ -16,13 +16,18 @@
   } {
     << \clef french { \include "voix1-original.ily"} >>
   }
-%  \new DrumStaff \with {
-%  } {
-%    << \clef french { \include "beat.ily"} >>
-%  }
->>
-\layout { }
-\midi {
-  \tempo 2 = 50
-}
-}
+  %  \new DrumStaff \with {
+    %  } {
+      %    << \clef french { \include "beat.ily"} >>
+      %  }
+    >>
+    \layout {
+      \context {
+	\Staff
+	\StaffDefaults
+      }
+    }
+    \midi {
+      \tempo 2 = 50
+    }
+  }

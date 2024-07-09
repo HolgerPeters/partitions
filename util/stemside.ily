@@ -19,3 +19,7 @@ tre =\noteSide -+
 respi =
 #(define-music-function () ()
   (if annotations #{ \breathe #} #{ #}))
+
+StaffDefaults = \with {
+  \override Rest.style = #'classical
+}

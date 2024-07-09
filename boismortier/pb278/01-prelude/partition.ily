@@ -2,7 +2,8 @@
   \header {
     \include "titre.ily"
   }
-  \new StaffGroup <<
+  \new StaffGroup
+  <<
     \new Staff \with {
       midiInstrument = "recorder"
     } {
@@ -13,12 +14,18 @@
   }
   \new Staff \with {
     midiInstrument = "recorder"
-  } {
+  }
+  {
     << \clef french { \include "voix2.ily"} >>
   }
->>
-\layout { }
-\midi {
-  \tempo 2 = 50
-}
+  >>
+  \layout {
+    \context {
+      \Staff
+      \StaffDefaults
+    }
+  }
+  \midi {
+    \tempo 2 = 50
+  }
 }

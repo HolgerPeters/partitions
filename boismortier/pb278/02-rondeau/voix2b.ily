@@ -15,7 +15,7 @@ b, g a, fis              |
 g d g,8 a, b, c          |
 d e fis g fis4.\tre g8   |
 g2 r2                    |
-r1                       |
+R1                       |
 r2 b,4 c                 |
 d4 c8 b, e4 e            |
 d2 g4 g                  |

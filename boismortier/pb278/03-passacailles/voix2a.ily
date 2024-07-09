@@ -1,7 +1,7 @@
 \transpose c c'' {
   \once \override Staff.TimeSignature.style = #'single-digit
   \time 3/4
-  r2.
+  R2.
   bes,8 a, g,4 es4                          |
   d bes, g,                                 |
   d4. e8 fis4                               |

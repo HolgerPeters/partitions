@@ -38,7 +38,7 @@
     \fine \break
     \key g \minor
     \repeat volta 2 {
-      r2.                                                    |
+      R2.                                                    |
       bes,8 a, bes, c d4                                     |
       g,4 g fis                                              |
       g2 g,4                                                 |

@@ -28,7 +28,12 @@
     } >>
     }
   >>
-  \layout { }
+  \layout {
+    \context {
+      \Staff
+      \StaffDefaults
+    }
+  }
   \midi {
     \tempo 4 = 120
   }

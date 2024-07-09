@@ -3,7 +3,6 @@
  #(ly:font-config-add-directory "../../../fonts") % compilation happens in ./out so we need to get one up
 
 
-
 \paper {
     indent = 0\mm
       myStaffSize = #20
@@ -17,10 +16,11 @@
 
     scoreTitleMarkup = \markup {
       \fill-line {
-        \fontsize #2 \bold \fromproperty #'header:piece
         \null
-       \null %\fontsize #1 \bold \fromproperty #'header:opus
+	\fontsize #2 \bold \fromproperty #'header:piece
+	\null %\fontsize #1 \bold \fromproperty #'header:opus
       }
+      \fill-line { "" "" "" }
     }
     bookTitleMarkup = \markup {
       \fill-line {

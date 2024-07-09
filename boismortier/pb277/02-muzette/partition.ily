@@ -16,7 +16,12 @@
       << \clef french { \include "voix2.ily"} >>
     }
   >>
-  \layout { }
+  \layout {
+    \context {
+      \Staff
+      \StaffDefaults
+    }
+  }
   \midi {
     \tempo 8 = 100
   }
