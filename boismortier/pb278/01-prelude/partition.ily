@@ -19,12 +19,7 @@
     << \clef french { \include "voix2.ily"} >>
   }
   >>
-  \layout {
-    \context {
-      \Staff
-      \StaffDefaults
-    }
-  }
+  \include "layoutDefaults.ily"
   \midi {
     \tempo 2 = 50
   }

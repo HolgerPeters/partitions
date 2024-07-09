@@ -42,7 +42,7 @@
   \appoggiatura f8 e4 fis g            |
   g4. a8 fis4\tre                      |
   g4 d es                              |
-  es4 d8\battement c d4                |
+  e4 d8\battement c d4                |
   g, c c                               |
   c4 d8 c bes,\battement a,            |
   bes,4\respi d es                           |

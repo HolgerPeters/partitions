@@ -36,7 +36,7 @@
       g,2.
     }
     \fine \break
-    \key g \minor
+    \include "minorKey.ily"
     \repeat volta 2 {
       R2.                                                    |
       bes,8 a, bes, c d4                                     |

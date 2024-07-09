@@ -5,7 +5,7 @@
 
 \paper {
     indent = 0\mm
-      myStaffSize = #20
+    myStaffSize = #20
 
     #(define fonts
     (make-pango-font-tree
