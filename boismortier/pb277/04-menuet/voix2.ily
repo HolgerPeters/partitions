@@ -34,6 +34,6 @@
     c4 b,8 c a,4 |
     d4 c8 d8 b,4 |
     e4 d4.\tre c8 |
-    c2. 
+    c2.
     }\fine
 }

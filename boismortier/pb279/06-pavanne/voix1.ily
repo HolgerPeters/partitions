@@ -22,6 +22,6 @@
     a,4 a, a, a,          |
     b, a,8 b, g,4 g4      |
     g4 f8 e d c d e       |
-    c2.\fermata e8 f            
+    c2.\fermata e8 f
   }
 }
