@@ -2,7 +2,6 @@
  #(ly:font-config-add-directory "../../fonts")
  #(ly:font-config-add-directory "../../../fonts") % compilation happens in ./out so we need to get one up
 
-
 \paper {
     indent = 0\mm
     myStaffSize = #20
@@ -27,12 +26,16 @@
         \null
 	\center-column {
 	  \fontsize #4 \bold \fromproperty #'header:title
+	  \fontsize #4 \bold \fromproperty #'header:subtitle
+	  \fontsize #4 \bold \fromproperty #'header:subsubtitle
 	  \fromproperty #'header:instrument
 	  " "
 	}
 	\column {
+	  \null
 	\right-align { \fromproperty #'header:composer }
-	\right-align {   "op. 11 n° 2, PB 278" }
+	\right-align {   "Œuvre 11 n°2" }
+	\right-align {   "PB 278" }
 	}
       }
     }
