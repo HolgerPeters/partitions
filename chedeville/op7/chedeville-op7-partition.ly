@@ -7,14 +7,16 @@
   \include "layout.ily"
   \bookpart {
     \header {
-      \include "s1/titre.ily"
+      \include "titre.ily"
     }
     \include "s1/01-pastourelle/partition.ily"
     \include "s1/02-pastourelle/partition.ily"
     \include "s1/03-marche/partition.ily"
+    \pageBreak
     \include "s1/04-musette/partition.ily"
     \include "s1/05-rigaudon/partition.ily"
     \include "s1/06-rigaudon/partition.ily"
+    \pageBreak
     \include "s1/07-rondeau/partition.ily"
     \include "s1/08-rondeau/partition.ily"
     \include "s1/09-brunette/partition.ily"

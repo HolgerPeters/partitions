@@ -2,10 +2,10 @@
   \header {
     \include "titre.ily"
   }
-  \new StaffGroup \with {
+  \new ChoirStaff \with {
     instrumentName = \markup {
       \center-column {
-	\line {\fontsize #8 "1ʳᵉ" }
+	\line {\fontsize #8 "IIᵉ" }
 	\line { \fontsize #8 "Suite"}
       }
     }
@@ -25,9 +25,9 @@
   {
     << \clef french { \include "voix2.ily"} >>
   }
->>
-\include "layoutPremiere.ily"
-\midi {
-  \tempo 2 = 50
-}
+  >>
+  \include "layoutPremiere.ily"
+  \midi {
+    \tempo 2 = 50
+  }
 }

@@ -20,6 +20,18 @@ respi =
 #(define-music-function () ()
   (if annotations #{ \breathe #} #{ #}))
 
+whenAnno =
+#(define-music-function
+   (ifAnnotated)
+   (ly:music?)
+  (if annotations ifAnnotated #{ #}))
+
+annoBar =
+#(define-music-function
+   ()
+   ()
+  (if annotations #{\bar ";" #} #{ #}))
+
 ifAnno =
 #(define-music-function
    (ifAnnotated ifOrig)

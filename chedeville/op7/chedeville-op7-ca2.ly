@@ -6,7 +6,7 @@
   \include "layout.ily"
   \bookpart {
     \header {
-      \include "s1/titre.ily"
+      \include "titre.ily"
       instrument = "Contralto 2"
     }
     \include "s1/01-pastourelle/contralto2.ily"

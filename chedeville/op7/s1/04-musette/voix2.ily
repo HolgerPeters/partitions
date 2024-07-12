@@ -9,6 +9,7 @@
       c8 d e c f4 d\tre                        |
       c2
     }
+  \fine
     e4 e4                                      |
     e4 \appoggiatura d8 c4 f d4\tre            |
     e2^\ltoe e8 d e f                          |
@@ -23,5 +24,4 @@
     e4 b,4\tre c4.^\ltoe d8                    |
     b,2\tre % c4 b,4
   }
-  \fine
 }
