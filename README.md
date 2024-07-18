@@ -21,11 +21,11 @@ changes, whereas the release version trys to stay closer to the original
 historic score.
 
 * ✅ [partition][bp278-partition-annotated]
-    * Suite 1 🚧 
-    * Suite 2 ✅ 
+    * Suite 1 🚧
+    * Suite 2 ✅
 * ✅ [partition][bp278-partition-release]
-    * Suite 1 🚧 
-    * Suite 2 ✅ 
+    * Suite 1 🚧
+    * Suite 2 ✅
 
 #### Six Sonates à 2 flûtes traversières
 Sonatas for the baroque traverso.
@@ -70,4 +70,3 @@ State of proofreading (M1):
 [bp278-partition-annotated]: <https://github.com/HolgerPeters/partitions/releases/download/v2024-07-18/boismortier-bp278-partition-annotated.pdf>
 [bp278-partition-release]: <https://github.com/HolgerPeters/partitions/releases/download/v2024-07-18/boismortier-bp278-partition-release.pdf>
 [musette]: <https://fr.wikipedia.org/wiki/Musette_de_cour>
-
