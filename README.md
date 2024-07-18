@@ -16,9 +16,16 @@ of the alto recorder.
 
 ##### Deuxième Suite a deux musettes (PB 278; op.11 n°2)
 
-* ✅ [partition][bp278-partition]
-* ✅ [contralto 1][bp278-ca1]
-* ✅ [contralto 2][bp278-ca1]
+There are two versions, the annotated version contain invasive editorial
+changes, whereas the release version trys to stay closer to the original
+historic score.
+
+* ✅ [partition][bp278-partition-annotated]
+    * Suite 1 🚧 
+    * Suite 2 ✅ 
+* ✅ [partition][bp278-partition-release]
+    * Suite 1 🚧 
+    * Suite 2 ✅ 
 
 #### Six Sonates à 2 flûtes traversières
 Sonatas for the baroque traverso.
@@ -60,7 +67,7 @@ State of proofreading (M1):
 [iec8-m1-treble]: <https://github.com/HolgerPeters/partitions/releases/download/v2024-06-16-c/chedeville-iec8-m1-treble.pdf>
 [bp223-fl1-french]: <https://github.com/HolgerPeters/partitions/releases/download/v2024-06-16-c/boismortier-bp223-ca1-french.pdf>
 [bp223-fl1-treble]: <https://github.com/HolgerPeters/partitions/releases/download/v2024-06-16-c/boismortier-bp223-ca1-treble.pdf>
-[bp278-ca1]: <https://github.com/HolgerPeters/partitions/releases/download/v2024-06-16-c/boismortier-bp278-ca1.pdf>
-[bp278-ca2]: <https://github.com/HolgerPeters/partitions/releases/download/v2024-06-16-c/boismortier-bp278-ca2.pdf>
-[bp278-partition]: <https://github.com/HolgerPeters/partitions/releases/download/v2024-06-16-c/boismortier-bp278-partition.pdf>
+[bp278-partition-annotated]: <https://github.com/HolgerPeters/partitions/releases/download/v2024-07-18/boismortier-bp278-partition-annotated.pdf>
+[bp278-partition-release]: <https://github.com/HolgerPeters/partitions/releases/download/v2024-07-18/boismortier-bp278-partition-release.pdf>
 [musette]: <https://fr.wikipedia.org/wiki/Musette_de_cour>
+
