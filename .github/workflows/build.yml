@@ -10,11 +10,7 @@ jobs:
     - name: Generate PDF music sheets for PB278
       uses: holgerpeters/lilypond-github-action@main
       with:
-        path: ./boismortier/pb278
-    - name: Generate PDF music sheets for PB223
-      uses: holgerpeters/lilypond-github-action@main
-      with:
-        path: ./boismortier/pb223
+        path: ./boismortier/6a2
     - name: Generate PDF music sheets for IEC8
       uses: holgerpeters/lilypond-github-action@main
       with:
