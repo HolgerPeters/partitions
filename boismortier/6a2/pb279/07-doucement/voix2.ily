@@ -14,7 +14,7 @@
     b,4\tre \appoggiatura  a,8 g,4 e4. f8 |
     e4 d8 c b,4.\tre a,8                   |
     g,2 e4 f8 g                            |
-    a,8 b, c d b,4.\tre c8                 | 
+    a,8 b, c d b,4.\tre c8                 |
     c2
   }
 }
