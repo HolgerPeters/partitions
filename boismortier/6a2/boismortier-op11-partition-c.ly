@@ -9,12 +9,12 @@
     \header {
       \include "titre.ily"
     }
-    % \include "pb277/01-ouverture/partition.ily"
-%    \include "pb277/02-muzette/partition.ily"
-%    \include "pb277/03-viele/partition.ily"
-%    \include "pb277/04-menuet/partition.ily"
-%    \include "pb277/05-sarabande/partition.ily"
-%    \include "pb277/06-contredance/partition.ily"
+    \include "pb277/01-ouverture/partition-c.ily"
+    \include "pb277/02-muzette/partition-c.ily"
+    \include "pb277/03-viele/partition-c.ily"
+    \include "pb277/04-menuet/partition-c.ily"
+    \include "pb277/05-sarabande/partition-c.ily"
+    \include "pb277/06-contredance/partition-c.ily"
   }
   \bookpart {
     \header {

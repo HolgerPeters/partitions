@@ -7,14 +7,11 @@
     c4 d8 e f4 d             |
   }
   \alternative {
-    {
-      e4 e2
-    }
-    {
-      e2. c8 d8         |
-    }
+    { e4 e2 }
+    { e2. }
   }
   \repeat volta 2 {
+    \partial 4 c8 d8                    |
     e8 d e f e4 e            |
     e4.\tre d8 c4 d8 e       |
     b,4 b, b, c              |

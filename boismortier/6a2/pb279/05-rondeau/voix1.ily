@@ -2,7 +2,7 @@
   \time 2/2 \key c \major
   \tempo "Modérément"
   \partial 4 g,4            |
-  \repeat segno 2 {
+  \repeat volta 2 {
     c4 g, r4 c8 d           |
     e4 c r e8 f             |
     g4 a a g                |

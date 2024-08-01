@@ -1,2 +1,1 @@
-piece = "Pavane"
-opus = "11, PB 277"
+piece = "Pavanne"
