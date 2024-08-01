@@ -3,7 +3,7 @@
 \key c \major
 \transpose c c'' {
   \repeat volta 2 {
-    \tempo "moderé"
+    \tempo "marqué"
     \partial 2 g,4 g,   |
     c c d d            |
     e4. f8 e4 d        |

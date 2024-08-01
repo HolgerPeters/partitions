@@ -19,8 +19,8 @@
     d8 c d e d4                   |
     g4 e4\tre \appoggiatura d8 c4 |
     d4^\ltoe d2\tre               |
-    c4_!  g c                     |
-    c2.\prall                     |
+    c4_!  g, c                    |
+    c2.\battement                 |
   }
   \fine
 }
