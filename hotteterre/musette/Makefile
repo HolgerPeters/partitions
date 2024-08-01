@@ -1,6 +1,14 @@
 OUTPUT_DIR=out
 mkfile_path := $(dir $(abspath $(lastword $(MAKEFILE_LIST))))
 
+
+toC=m4 -D xCLEF="treble" -D xFROM="g" -D xTO="c" m1.m4
+toD=m4 -D xCLEF="treble" -D xFROM="g" -D xTO="d" m1.m4
+
+MC=l1/1-vaudeville/m1-c.ily l1/2-chansonette/m1-c.ily l1/3-vaudeville/m1-c.ily l1/4-air/m1-c.ily l1/5-chanson/m1-c.ily l1/6-vaudeville/m1-c.ily l1/7-menuet/m1-c.ily
+MD=l1/1-vaudeville/m1-d.ily l1/2-chansonette/m1-d.ily l1/3-vaudeville/m1-d.ily l1/4-air/m1-d.ily l1/5-chanson/m1-d.ily l1/6-vaudeville/m1-d.ily l1/7-menuet/m1-d.ily
+
+
 current_dir:=$(shell pwd)
 util_dir:=$(shell pwd)/../../util
 util_dir:=$(abspath $(util_dir))
@@ -16,7 +24,7 @@ PDFS=$(patsubst %.ly,$(OUTPUT_DIR)/%.pdf,$(SRCS))
 # file changes.
 INCLUDES := $(shell find $(mkfile_path) -iname '*.ily')
 
-all: $(PDFS)
+all: $(MC) $(MD) $(PDFS)
 
 $(OUTPUT_DIR):
 	mkdir -p $@
@@ -32,3 +40,21 @@ clean:
 
 notizen.pdf: notizen.tex notes.cls
 	latexmk --shell-escape --pdflua notizen.tex
+
+$(MC): m1.m4
+	$(toC) > l1/1-vaudeville/m1-c.ily
+	$(toC) > l1/2-chansonette/m1-c.ily
+	$(toC) > l1/3-vaudeville/m1-c.ily
+	$(toC) > l1/4-air/m1-c.ily
+	$(toC) > l1/5-chanson/m1-c.ily
+	$(toC) > l1/6-vaudeville/m1-c.ily
+	$(toC) > l1/7-menuet/m1-c.ily
+
+$(MD): m1.m4
+	$(toD) > l1/1-vaudeville/m1-d.ily
+	$(toD) > l1/2-chansonette/m1-d.ily
+	$(toD) > l1/3-vaudeville/m1-d.ily
+	$(toD) > l1/4-air/m1-d.ily
+	$(toD) > l1/5-chanson/m1-d.ily
+	$(toD) > l1/6-vaudeville/m1-d.ily
+	$(toD) > l1/7-menuet/m1-d.ily
