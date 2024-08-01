@@ -26,7 +26,7 @@
     \fine
 
     % rigaudon 2
-    \key c \minor
+    \include "minorKey.ily"
     \repeat volta 2 {
       \partial 4 g,4     |
       c2 g,              |

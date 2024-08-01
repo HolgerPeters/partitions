@@ -27,7 +27,7 @@
     \fine \break
 
     % rigaudon 2
-    \key c \minor
+    \include "minorKey.ily"
     \repeat volta 2 {
       \partial 4 c8 d       |
       es2 d2\tre            |
