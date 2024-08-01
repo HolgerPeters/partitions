@@ -7,10 +7,10 @@
     e4 d8 c d4 b,         |
   }
   \alternative {
-    { c4 c2 }
-    { c2. e8 f            | }
+    { c4 c2  }
+    { c2.             }
   }
-  \repeat volta 2 {
+  \repeat volta 2 {e8 f 
     g f g a g4 g          |
     g4.\tre f8 e4 f8 g    |
     d4 d d e              | % \break
