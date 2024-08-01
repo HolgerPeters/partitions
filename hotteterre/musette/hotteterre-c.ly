@@ -6,7 +6,7 @@
     \include "layout.ily"
     \header {
       \include "l1/titre.ily"
-      instrument = "Soprano"
+      instrument = "Flûte à bec soprano"
     }
     \include "l1/1-vaudeville/m1-c.ily"
     \include "l1/2-chansonette/m1-c.ily"

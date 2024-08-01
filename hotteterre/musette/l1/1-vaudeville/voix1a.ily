@@ -4,7 +4,7 @@
 \transpose c c'' {
   \repeat volta 2 {
     \tempo "moderé"
-    \partial 4 c4        |
+    \partial 4 c4_\markup{Tes beaux yeux ma Nicole}        |
     g2.\battement        |
     f4 e d               |
     e4 d  c              |

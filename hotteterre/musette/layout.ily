@@ -31,7 +31,6 @@
 	}
 	\column {
 	  \right-align { \fromproperty #'header:composer }
-	  \right-align {   "?" }
 	}
       }
     }
