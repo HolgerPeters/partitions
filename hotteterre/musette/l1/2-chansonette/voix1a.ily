@@ -4,7 +4,7 @@
 \transpose c c'' {
   \repeat volta 2 {
     \tempo "moderé"
-    c4 c c f2 f4    |
+    c4_\markup{Viens ma Bergere viens seulette} c c f2 f4    |
     e2\tre f4       |
     g2 d4           |
     d4 e f          |

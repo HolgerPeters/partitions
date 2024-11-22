@@ -4,8 +4,8 @@ mkfile_path := $(dir $(abspath $(lastword $(MAKEFILE_LIST))))
 
 toSopC=m4 -D xCLEF="treble" -D xFROM="g" -D xTO="c" m1.m4
 toSopD=m4 -D xCLEF="treble" -D xFROM="g" -D xTO="d" m1.m4
-toAltFr=m4 -D xCLEF="french" -D xFROM="f" -D xTO="f" m1.m4
-toAltTr=m4 -D xCLEF="treble" -D xFROM="f" -D xTO="f" m1.m4
+toAltFr=m4 -D xCLEF="french" -D xFROM="g" -D xTO="g" m1.m4
+toAltTr=m4 -D xCLEF="treble" -D xFROM="g" -D xTO="g" m1.m4
 
 MC=l1/1-vaudeville/m1-c.ily l1/2-chansonette/m1-c.ily l1/3-vaudeville/m1-c.ily l1/4-air/m1-c.ily l1/5-chanson/m1-c.ily l1/6-vaudeville/m1-c.ily l1/7-menuet/m1-c.ily
 MD=l1/1-vaudeville/m1-d.ily l1/2-chansonette/m1-d.ily l1/3-vaudeville/m1-d.ily l1/4-air/m1-d.ily l1/5-chanson/m1-d.ily l1/6-vaudeville/m1-d.ily l1/7-menuet/m1-d.ily

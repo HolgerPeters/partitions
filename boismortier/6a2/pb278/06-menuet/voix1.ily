@@ -4,24 +4,29 @@
   \repeat segno 2 {
     \repeat volta 2 {
       a,4 d2                                                 |
-      \appoggiatura c8 b,4 \appoggiatura a,8 g,4 a,          |
+      \appoggiatura c8 b,4 \appoggiatura a,8 g,4  a,          |
       b,4 c d                                                |
       b,2\tre a,4                                            |
       g,4 d2                                                 |
-      \appoggiatura c8 b,4 c d                               |
-      e fis g                                                |
+      \appoggiatura c8 {b,4}{ c d                               |
+      e fis g}                                                |
     }
     \alternative {
       { fis4.\tre e8 d4 }
       {fis2.\tre}
     }
     \repeat volta 2 {
-      a4 b2                                                  |
-      a8 g fis e d4                                          |
+      {a4 } {b2|
+      a8 g fis e d4}                                          |
       e d\battement c                                        |
-      d2
-      \appoggiatura c8 b,4                                   |
-      d4 g, a,                                               |
+      \whenAnno {\time 3/2}
+      d2\annoBar
+      \appoggiatura c8 b,4 d4\annoBar
+      g, a,
+      \whenAnno {
+	\once \override Staff.TimeSignature.style = #'single-digit
+	\time 3/4
+      }
       a,\tre g, a,                                           |
       b, c8 b, a, g,                                         |
       a,2.\tre                                               |
@@ -30,8 +35,13 @@
       e4 fis g                                               |
       d2.                                                    |
       g4 fis\battement e                                     |
-      a d g                                                  |
-      \appoggiatura fis4 e4 fis2\tre                         |
+      \whenAnno {\time 3/2}
+      a4 d\annoBar g
+      \appoggiatura fis4 e4 \annoBar  fis2\tre
+      \whenAnno {
+	\once \override Staff.TimeSignature.style = #'single-digit
+	\time 3/4
+      }
       g2.
     }
 

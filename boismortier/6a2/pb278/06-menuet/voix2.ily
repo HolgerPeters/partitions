@@ -20,9 +20,19 @@
       fis4 g2                                                |
       d4. c8 b,4                                             |
       c4 b,\battement a,                                     |
+      \whenAnno {\time 3/2}
       b,2
-      \appoggiatura a,8 g,4                                  |
-      b,2 c4                                                 |
+      \appoggiatura a,8 g,4
+      \ifAnno {
+	b,4 ~ b,
+      } {
+	b,2
+      }
+      c4
+      \whenAnno {
+	\once \override Staff.TimeSignature.style = #'single-digit
+	\time 3/4
+      }
       d4 b, c                                                |
       d4. e8 fis g                                           |
       fis4.\tre e8 d4                                        |
@@ -31,8 +41,13 @@
       c8 b, c d b, c                                         |
       a,4 fis8 g a fis                                       |
       g4 fis\battement e                                     |
-      d c b,                                                 |
-      c4 a,2\tre                                             |
+      \whenAnno {\time 3/2}
+      d c\annoBar b,
+      c4 \annoBar a,2\tre
+      \whenAnno {
+	\once \override Staff.TimeSignature.style = #'single-digit
+	\time 3/4
+      }
       g,2.
     }
     \fine \break

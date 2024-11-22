@@ -4,7 +4,7 @@
 \transpose c c'' {
   \repeat volta 2 {
     \tempo "marqué"
-    \partial 2 g,4 g,   |
+    \partial 2 g,4_\markup{D'une main je tiens mon pot} g,   |
     c c d d            |
     e4. f8 e4 d        |
     c4. (d8 ) d2\tre   |

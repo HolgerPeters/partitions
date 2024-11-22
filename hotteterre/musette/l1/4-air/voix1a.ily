@@ -4,7 +4,7 @@
 \transpose c c'' {
   \repeat volta 2 {
     \tempo "moderé"
-    \partial 2 c4-! d8 e                |
+    \partial 2 c4-!_\markup{Sçavez, vous bien Beaute ???} d8 e                |
     b,4.\tre c8 a,4^\rtoe b,4\tre       |
     c4^\ltoe g,4 c^! d8 e               |
     b,4.\tre c8 a,^\rtoe b,4.^\turn\tre |
