@@ -38,6 +38,25 @@ ifAnno =
    (ly:music? ly:music?)
   (if annotations ifAnnotated ifOrig))
 
+annoPhrase =
+#(define-music-function
+   (head phrase)
+   (ly:music? ly:music?)
+   #{\phrasingSlurDashed #head \( #phrase \) #}
+  )
+
+dpO =
+#(define-music-function
+   ()
+   ()
+   #{\whenAnno\phrasingSlurDashed \whenAnno \(#})
+
+dpC =
+#(define-music-function
+   ()
+   ()
+   #{\whenAnno \)#})
+
 StaffDefaults = \with {
   \override Rest.style = #'classical
 }
