@@ -1,7 +1,7 @@
 
 
 all: ./boismortier/6a2 ./boismortier/pb223 ./boismortier/pb279 ./weihnacht ./debussy/l129 ./hotteterre/musette ./chedeville/op7 ./chedeville/iec8
-	
+
 
 ./boismortier/6a2:
 	cd $@ && $(MAKE)

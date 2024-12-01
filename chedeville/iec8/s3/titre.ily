@@ -1,8 +1,6 @@
-subtitle ="Neuvième Recueil de pieces choisies"
-title ="Troisième Suite"
+subtitle = "Neuvième Recueil de pieces choisies"
+title    = "Troisième Suite"
 composer = "Esprit Philippe Chédeville"
-copyright = "domaine public"
-opus = "IEC 8"
-tagline = "rev. 23 Juin 2024"
+opus     = "IEC 8"
 
-print-all-headers = ##t
+\include "../../../revision_fr.ily"
