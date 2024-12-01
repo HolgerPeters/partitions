@@ -23,6 +23,10 @@ jobs:
       uses: holgerpeters/lilypond-github-action@main
       with:
         path: ./hotteterre/musette
+    - name: Build PDFs for christmas songs
+      uses: holgerpeters/lilypond-github-action@main
+      with:
+        path: ./weihnacht
     - name: Upload PDFs
       uses: actions/upload-artifact@v4
       with:
