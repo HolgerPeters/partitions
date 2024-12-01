@@ -21,7 +21,7 @@
       g4 fis8 [e] d2)
       r4\break d4 g g
       a a b8 ([c'] d'2)
-      b b (a8 [g] b2) a2 
+      b b (a8 [g] b2) a2
       g2. \fine
 
 

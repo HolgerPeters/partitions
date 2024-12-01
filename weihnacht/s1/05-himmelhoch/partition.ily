@@ -17,8 +17,8 @@
   }
    \new Lyrics {
       \lyricsto "melodie" {
-	Vom Him- mel hoch, da komm' ich her, 
-	ich bring' euch gu- te neu- e Mär, 
+	Vom Him- mel hoch, da komm' ich her,
+	ich bring' euch gu- te neu- e Mär,
 	der gu- ten Mär bring' ich so viel, da- von ich sign'n und sa- gen will
 
       }

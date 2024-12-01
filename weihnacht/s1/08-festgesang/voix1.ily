@@ -21,7 +21,7 @@
       d'4. d'8 d'4 c'     |
       bes a bes2          |
       g4 a8 (bes) c'4. f8 |
-      f4 g f2            
+      f4 g f2
     \fine
   }
 }
