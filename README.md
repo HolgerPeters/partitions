@@ -63,10 +63,10 @@ State of proofreading (M1):
 * 💡 Menuet
 
 [boismortier]: <https://en.wikipedia.org/wiki/Joseph_Bodin_de_Boismortier>
-[iec8-m1-french]: <https://github.com/HolgerPeters/partitions/releases/download/v2024-06-16-c/chedeville-iec8-m1-french.pdf>
-[iec8-m1-treble]: <https://github.com/HolgerPeters/partitions/releases/download/v2024-06-16-c/chedeville-iec8-m1-treble.pdf>
-[bp223-fl1-french]: <https://github.com/HolgerPeters/partitions/releases/download/v2024-06-16-c/boismortier-bp223-ca1-french.pdf>
-[bp223-fl1-treble]: <https://github.com/HolgerPeters/partitions/releases/download/v2024-06-16-c/boismortier-bp223-ca1-treble.pdf>
+[iec8-m1-french]: <https://github.com/HolgerPeters/partitions/releases/download/v2024-12-02/chedeville-iec8-m1-french.pdf>
+[iec8-m1-treble]: <https://github.com/HolgerPeters/partitions/releases/download/v2024-12-02/chedeville-iec8-m1-treble.pdf>
+[bp223-fl1-french]: <https://github.com/HolgerPeters/partitions/releases/download/v2024-12-02/boismortier-bp223-ca1-french.pdf>
+[bp223-fl1-treble]: <https://github.com/HolgerPeters/partitions/releases/download/v2024-12-02/boismortier-bp223-ca1-treble.pdf>
 [bp278-partition-annotated]: <https://github.com/HolgerPeters/partitions/releases/download/v2024-07-18/boismortier-bp278-partition-annotated.pdf>
 [bp278-partition-release]: <https://github.com/HolgerPeters/partitions/releases/download/v2024-07-18/boismortier-bp278-partition-release.pdf>
 [musette]: <https://fr.wikipedia.org/wiki/Musette_de_cour>
