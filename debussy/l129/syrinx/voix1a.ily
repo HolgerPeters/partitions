@@ -13,6 +13,6 @@
   \grace \parenthesize ces
   \times 2/3 {r16 as,16\< ( ces} \times 2/3 {des fes as} \!) |
   r8. as16 \< ces'2 ~|
-  ces'2\! (des'4\> )\tempo "Retenu"  es'2\!\p( 
+  ces'2\! (des'4\> )\tempo "Retenu"  es'2\!\p(
   bes4) \breathe |
 }
