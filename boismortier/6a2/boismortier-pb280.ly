@@ -9,11 +9,11 @@
     \header {
       \include "titre.ily"
     }
-    \include "pb279/01-prelude/partition.ily"
-%    \include "pb279/02-paysane/partition.ily"
-%    \include "pb279/03-rondeau/partition.ily"
-%    \include "pb279/04-rondeau/partition.ily"
-%    \include "pb279/05-gavotte/partition.ily"
+    \include "pb280/01-prelude/partition.ily"
+%    \include "pb280/02-paysane/partition.ily"
+%    \include "pb280/03-rondeau/partition.ily"
+%    \include "pb280/04-rondeau/partition.ily"
+%    \include "pb280/05-gavotte/partition.ily"
   }
 }
 % vim:sw=2:ts=2:et:
