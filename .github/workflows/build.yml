@@ -19,10 +19,10 @@ jobs:
       uses: holgerpeters/lilypond-github-action@main
       with:
         path: ./chedeville/op7
-    - name: Build PDFs for Hotteterre
-      uses: holgerpeters/lilypond-github-action@main
-      with:
-        path: ./hotteterre/musette
+#    - name: Build PDFs for Hotteterre
+#      uses: holgerpeters/lilypond-github-action@main
+#      with:
+#        path: ./hotteterre/musette
     - name: Build PDFs for christmas songs
       uses: holgerpeters/lilypond-github-action@main
       with:
