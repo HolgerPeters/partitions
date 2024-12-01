@@ -1,3 +1,3 @@
 title = "Advents- und Weihnachtslieder"
 
-print-all-headers = ##f
+\include "../../revision.ily"

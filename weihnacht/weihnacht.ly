@@ -3,11 +3,10 @@
 
 \include "stemside.ily"
 
-\paper {
-  print-all-headers = ##f
-}
-
 \book {
+  \header {
+    \include "titre.ily"
+  }
   \include "layout.ily"
   \bookpart {
     \include "s1/01-macht-hoch/partition.ily"
