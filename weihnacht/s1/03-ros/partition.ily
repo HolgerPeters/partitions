@@ -3,6 +3,9 @@
   }
 \score {
   <<
+    \new Staff \with {
+      \override TimeSignature.stencil = ##f
+    }
     \new Voice = "melodie" {
       \ifAnno {\clef french} {\clef violin}
       << {

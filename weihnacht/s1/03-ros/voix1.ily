@@ -1,8 +1,9 @@
 {
-  \time 2/2
+    \set Score.timing = ##f
+    \cadenzaOn
+  % \time 2/2
   \transpose c g' {
     \key f \major
-    \cadenzaOn
     c'2
     c'4 c' d' c'
     c'2 a2\breathe
