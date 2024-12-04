@@ -35,6 +35,27 @@
       wel- ches uns se- lig macht.
     }
   }
+  \new Lyrics {
+    \lyricsto "melodie" {
+      \set stanza = "3." Wir bit- ten dich von Her- zen,
+      du ed- le Kö- ni- gin,
+      durch dei- nes Soh- nes Schmer- zen,
+      wann wir fah- ren da- hin
+      aus die- sem Jam- mer- tal:
+      Du woll- test uns be- glei- ten
+      bis an der En- gel Saal!
+    }}
+
+    \new Lyrics {
+      \lyricsto "melodie" {
+	\set stanza = "4." So sing'n wir Al- le A- men,
+	das heißt: Nun werd es wahr,
+	das wir be- gehr'n all- zu- sam- men:
+	O Jesu, hilf uns dar
+	in dei- nes Va- ter Reich!
+	Da- rin woll'n wir dich lo- ben:
+	O Gott, und das ver- leih!
+      }}
 >>
 \midi {
   \tempo 2 = 50

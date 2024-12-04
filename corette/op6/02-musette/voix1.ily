@@ -32,7 +32,7 @@
     g,2 c4 |
     f8 e d g f g |
     e d c d e c |
-    d4 g, b, | c2 g4 | 
+    d4 g, b, | c2 g4 |
     as4 g8 as f as |
     g4 d es ~ |
     es8 (d16 c) b,4.\tre c8 |
