@@ -1,4 +1,4 @@
-tagline = "Dernière révision le 1er décembre 2024."
+tagline = "Dernière révision le 4ᵉ décembre 2024."
 copyright = "Ces œuvres sont dans le domaine public."
 print-all-headers = ##t
 
