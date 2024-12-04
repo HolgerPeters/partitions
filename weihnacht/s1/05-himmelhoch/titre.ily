@@ -1,2 +1,2 @@
-title = "Vom Himmel Hoch da komm ich her"
+title = "Vom Himmel hoch da komm ich her"
 composer = "Martin Luther"

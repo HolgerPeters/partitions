@@ -34,6 +34,9 @@
   }
   \bookpart {
     \include "s1/08-festgesang/partition.ily"
-    }
+  }
+  \bookpart {
+    \include "s1/jingle-bells/partition.ily"
+  }
 }
 % vim:sw=2:ts=2:et:
