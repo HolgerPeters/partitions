@@ -1,0 +1,5 @@
+title = "6 Fantasies"
+subtitle = "Iʳᵉ Fantaisie"
+composer = "Michel Corette"
+opus = "Op 6"
+\include "../../revision_fr.ily"
