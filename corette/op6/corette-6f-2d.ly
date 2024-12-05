@@ -7,8 +7,8 @@
     \header {
       \include "titre.ily"
     }
-    \include "02-musette/d2-french.ily"
-    \include "01-legerement/d2-french.ily"
+    \include "f1/01-legerement/d2-french.ily"
+    \include "f1/02-musette/d2-french.ily"
   }
 }
 % vim:sw=2:ts=2:et:

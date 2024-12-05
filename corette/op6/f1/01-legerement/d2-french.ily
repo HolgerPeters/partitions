@@ -31,6 +31,6 @@
       >>
     }
   >>
-  \layout { }
+  \include "layoutPremiere.ily"
   \midi { }
 }

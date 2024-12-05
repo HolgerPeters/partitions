@@ -5,7 +5,6 @@
   \new StaffGroup <<
     \new Staff \with {
       midiInstrument = "recorder"
-      \consists "Ambitus_engraver"
     } {
       << {
 	\clef french
@@ -15,7 +14,6 @@
     }
     \new Staff \with {
       midiInstrument = "recorder"
-      \consists "Ambitus_engraver"
     } {
       <<
 	{\clef french

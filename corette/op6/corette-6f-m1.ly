@@ -8,8 +8,8 @@
       \include "titre.ily"
       instrument = "Iᵉʳ Dessus"
     }
-    \include "02-musette/m1-french.ily"
-    \include "01-legerement/m1-french.ily"
+    \include "f1/01-legerement/m1-french.ily"
+    \include "f1/02-musette/m1-french.ily"
   }
 }
 % vim:sw=2:ts=2:et:
