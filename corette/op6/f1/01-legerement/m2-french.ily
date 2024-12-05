@@ -3,6 +3,12 @@
     \include "titre.ily"
   }
   \new Staff \with {
+    instrumentName = \markup {
+      \center-column {
+	\line {\fontsize #4 "Iʳᵉ" }
+	\line { \fontsize #4 "Fantaisie"}
+      }
+    }
     midiInstrument = "recorder"
     \consists "Ambitus_engraver"
   } {
@@ -12,6 +18,6 @@
     }
   >>
 }
-\layout { }
+\include "layoutPremiere.ily"
 \midi { }
 }

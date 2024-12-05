@@ -19,20 +19,25 @@
         \fontsize #2 \bold \fromproperty #'header:piece
         \null %\fontsize #1 \bold \fromproperty #'header:opus
       }
+    \fill-line { "" "" "" }
     }
-    bookTitleMarkup = \markup {
-      \fill-line {
-        \null
-	\center-column {
-	  \fontsize #4 \bold \fromproperty #'header:title
-	  \fontsize #2 \bold \fromproperty #'header:subtitle
-	  \fromproperty #'header:instrument
-	  " "
-	}
-	\column {
+
+  bookTitleMarkup = \markup {
+    \fill-line {
+      \null
+      \center-column {
+	\fontsize #8 \fromproperty #'header:title
+	\fontsize #4 \fromproperty #'header:subtitle
+	\fontsize #4 \fromproperty #'header:subsubtitle
+	\fromproperty #'header:instrument
+	" "
+      }
+      \column {
+	" "
 	\right-align { \fromproperty #'header:composer }
-	\right-align { "Œuvre 6"}
-	}
+	\right-align { \fromproperty #'header:opus }
+	\right-align { \italic \small \fromproperty #'header:arranger }
       }
     }
   }
+}

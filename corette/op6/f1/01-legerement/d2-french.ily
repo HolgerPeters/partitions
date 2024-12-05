@@ -2,7 +2,14 @@
   \header {
     \include "titre.ily"
   }
-  \new StaffGroup <<
+  \new StaffGroup \with {
+    instrumentName = \markup {
+      \center-column {
+	\line {\fontsize #4 "Iʳᵉ" }
+	\line { \fontsize #4 "Fantaisie"}
+      }
+    }
+  } <<
     \new Staff \with {
       midiInstrument = "recorder"
       \consists "Ambitus_engraver"
@@ -23,22 +30,7 @@
 	}
       >>
     }
-  \new StaffGroup <<
-    \new Staff \with {
-      midiInstrument = "recorder"
-      \consists "Ambitus_engraver"
-    } {
-      <<
-	{\clef bass
-	\include "bass.ily"
-	}
-      >>
-    }
-    \new FiguredBass {
-      \include "conti.ily"
-  }
   >>
->>
   \layout { }
   \midi { }
 }
