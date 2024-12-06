@@ -1,24 +1,15 @@
-\header {
-  \include "titre.ily"
-}
 \score {
+  \header {
+    \include "titre.ily"
+  }
   <<
     \new Voice = "melodie" {
       \ifAnno {\clef french} {\clef violin}
-      << {
-	{\include "voix1.ily"}
-      }
-    >>
+      << {\include "voix1.ily"} >>
   }
-  \new Lyrics {
-    \lyricsto "melodie" {
-      O Hei- land reiß die Him- mel auf, her- ab, her- ab vom Him- mel lauf, reiß ab vom Him- mel Tor und Tür, reiß ab, wo Schloß und Rie- gel für.
-    }
+  >>
+  \midi {
+    \tempo 2 = 50
   }
->>
-\midi {
-  \tempo 2 = 50
-}
-\layout {
-}
+  \layout { }
 }

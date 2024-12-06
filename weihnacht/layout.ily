@@ -15,20 +15,13 @@
       "Libertinus Serif"
       (/ myStaffSize 20)))
 
+bookTitleMarkup = \markup {}
     scoreTitleMarkup = \markup {
-      \fill-line {
-	\null
-	\center-column {
-	  \fontsize #3 \bold \fromproperty #'header:piece
-	}
-	\null
-      }
-    }
-    bookTitleMarkup = \markup {
       \column {
 	\fill-line {
 	  \null
 	  \center-column {
+	    " "
 	    \fontsize #5 \bold \fromproperty #'header:title
 	    \fontsize #2 \bold \fromproperty #'header:subtitle
 	    " "

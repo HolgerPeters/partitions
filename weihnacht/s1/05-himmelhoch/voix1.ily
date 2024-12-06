@@ -11,6 +11,6 @@
     a4 a g b |
     c' a g\breathe r8 c' |
     b4 a g g |
-    f8 (e) d4 c \fine
+    f8 ([e)] d4 c \fine
   }
 }
