@@ -4,6 +4,7 @@
 \include "stemside.ily"
 
 \include "layout.ily"
+\include "s1/10-krippe/lyrics.ily"
 \include "s1/01-macht-hoch/lyrics.ily"
 \include "s1/04-dornwald/lyrics.ily"
 \include "s1/07-heiland/lyrics.ily"
