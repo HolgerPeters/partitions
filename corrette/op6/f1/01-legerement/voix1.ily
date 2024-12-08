@@ -4,11 +4,10 @@
 \override Staff.Rest.style = #'classical
 \compressEmptyMeasures
 
-
 \transpose c c'' {
   \repeat volta 2 {
     \partial 8 g,8                                      |
-    c\tempo "Legerment"  c c e16 f                      |
+    c c c e16 f                                         |
     g8 f16 e d e f d                                    |
     e f e d c8 c                                        |
     c8 d16 c b, c d b,                                  |
@@ -30,7 +29,7 @@
     a8 f16 g a8 g                                       |
     f d16 e f g e f                                     |
     d e f e d  e c d                                    | \break
-    b, g f e d e f g                                     |
+    b, g f e d e f g                                    |
     e d e f g8 e                                        |
     e8\tre d8 ~ d e16 f                                 |
     g8 c c c                                            |

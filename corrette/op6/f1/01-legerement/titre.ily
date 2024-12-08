@@ -1,1 +1,1 @@
-piece = "Legerement"
+piece = "Légèrement"

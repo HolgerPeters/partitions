@@ -5,23 +5,23 @@
 
 \repeat volta 2 {
 
-c2 r4             |
-e8 d c4 f         |
-e d g             |
-c4
+  c2 r4             |
+  e8 d c4 f         |
+  e d g             |
+  c4
 
-% \clef tenor
+  \unlessAnno {\clef tenor}
 
-e'8 f' e' d'      |
-c'4  c r          |
-c'8 d' e'4 f'     |
-c' g' g'          |
-\clef bass
-c'8 e f e d c     |
-b,4 c f           |
-g4 f8 e d c       |
-b,4 c c,          |
-g,2.
+  e'8 f' e' d'      |
+  c'4  c r          |
+  c'8 d' e'4 f'     |
+  c' g' g'          |
+  \clef bass
+  c'8 e f e d c     |
+  b,4 c f           |
+  g4 f8 e d c       |
+  b,4 c c,          |
+  g,2.
 }
 \repeat volta 2 {
   R2. R2.         |
@@ -39,4 +39,4 @@ g,2.
   c4 b, c         |
   f4 g g,         |
   c2.
-}
+} \fine

@@ -25,9 +25,7 @@
       midiInstrument = "cello"
     } {
       <<
-	{\clef bass
-	\include "bass.ily"
-	}
+	{\clef bass \include "bass.ily" }
       >>
     }
     \context Staff = bassStaff {\include "conti.ily"}
