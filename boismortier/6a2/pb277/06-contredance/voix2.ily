@@ -24,7 +24,7 @@
       c2 b,4 c8 d        |
       e f e d c4 b,      |
       c2
-    }\fine\break
+    }\fine
     \repeat volta 2 {
       e4 e4 |
       e4 g8 f e4 d |

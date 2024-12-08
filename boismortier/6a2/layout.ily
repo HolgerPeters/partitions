@@ -3,6 +3,8 @@
  #(ly:font-config-add-directory "../../../fonts") % compilation happens in ./out so we need to get one up
 
 \paper {
+  #(define page-breaking ly:optimal-breaking)
+
   indent = 0\mm
   myStaffSize = #20
 
@@ -13,6 +15,17 @@
       "Libertinus Serif"
       (/ myStaffSize 20)))
 
+
+  tocSuiteMarkup = \markup \large \column {
+    \hspace #1
+    \fill-line { \null \italic \fromproperty #'toc:text \null }
+    \hspace #1
+  }
+
+  tocTitleMarkup = \markup \huge \column {
+    \fill-line { \null "Table des matières" \null }
+    \hspace #1
+  }
   scoreTitleMarkup = \markup {
     \fill-line {
       \null

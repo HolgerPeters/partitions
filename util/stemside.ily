@@ -1,5 +1,10 @@
 #(define NOTESIDE -1)
 
+% \tocSuite \markup { ...} adds a table of content entry for suites
+tocSuite =
+#(define-music-function (text) (markup?)
+   (add-toc-item! 'tocSuiteMarkup text))
+
 dynamicDirection =
 #(define-music-function
   (side music) (number? ly:music?)
@@ -19,6 +24,12 @@ tre =\noteSide -+
 respi =
 #(define-music-function () ()
   (if annotations #{ \breathe #} #{ #}))
+
+unlessAnno =
+#(define-music-function
+   (unlessAnnotated)
+   (ly:music?)
+  (if (not annotations) unlessAnnotated #{ #}))
 
 whenAnno =
 #(define-music-function
