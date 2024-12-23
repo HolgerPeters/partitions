@@ -15,7 +15,7 @@
     \repeat volta 2 {
       b,4 b, b,           |
       b,4.\tre a,8 g,4    |
-      c4 d e              | \break
+      c4 d e              | % \break
       b,4\tre a,8 b, g,4  |
       d2 e4               |
       f4 e f              |

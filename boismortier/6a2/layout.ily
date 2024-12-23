@@ -3,10 +3,10 @@
  #(ly:font-config-add-directory "../../../fonts") % compilation happens in ./out so we need to get one up
 
 \paper {
-  #(define page-breaking ly:optimal-breaking)
-
-  indent = 0\mm
   myStaffSize = #20
+
+  ragged-bottom = ##t
+  left-margin = 18\mm
 
   #(define fonts
     (make-pango-font-tree
@@ -52,4 +52,13 @@
       }
     }
   }
+
+  oddFooterMarkup = \markup {
+    \fill-line {
+	\fontsize #1 \fromproperty #'header:shortComposer
+	\fontsize #1 \fromproperty #'header:title
+	\fontsize #1 \fromproperty #'header:opus
+    }
+  }
+  evenFooterMarkup = \oddFooterMarkup
 }

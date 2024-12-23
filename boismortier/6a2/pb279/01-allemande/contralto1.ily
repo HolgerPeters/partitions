@@ -7,6 +7,6 @@
   } {
     << \clef french {\include "voix1.ily" }>>
   }
-  \include "layoutDefaults.ily"
+  \include "layoutPremiere.ily"
   \midi { }
 }

@@ -7,35 +7,45 @@ util_dir:=$(abspath $(util_dir))
 
 LILYPOND_OPTIONS=--loglevel=WARN -ddelete-intermediate-files -dno-protected-scheme-parsing
 
+LI_FRENCH_CLEF= --evaluate='(define-public alto-clef "french")'
+LI_VIOLIN_CLEF= --evaluate='(define-public alto-clef "violin")'
+LI_WI_ANNO = --evaluate='(define-public annotations \#t)'
+LI_URTEXT = --evaluate='(define-public annotations \#f)'
+
 LILYPOND_CMD=lilypond -I$(current_dir) -I$(util_dir) $(LILYPOND_OPTIONS)
 
 SRCS=$(wildcard *.ly)
-PDFS=$(patsubst %.ly,$(OUTPUT_DIR)/%-release.pdf,$(SRCS))
-PDFS_ANNOTATED=$(patsubst %.ly,$(OUTPUT_DIR)/%-annotated.pdf,$(SRCS))
+PDFS_ANNOTATED=
+PDFS_ANNOTATED+=$(patsubst %.ly,$(OUTPUT_DIR)/anno/%-g1.pdf,$(SRCS))
+PDFS_ANNOTATED+=$(patsubst %.ly,$(OUTPUT_DIR)/anno/%-g2.pdf,$(SRCS))
+PDFS_ANNOTATED+=$(patsubst %.ly,$(OUTPUT_DIR)/urtext/%-g1.pdf,$(SRCS))
+PDFS_ANNOTATED+=$(patsubst %.ly,$(OUTPUT_DIR)/urtext/%-g2.pdf,$(SRCS))
 
 # We use INCLUDES here so that we get rebuilds in case any include file
 # changes. This means that unnecessary more rebuilds are triggered, if a *.ily
 # file changes.
-INCLUDES := $(shell find $(mkfile_path) -iname '*.ily')
+INCLUDES := $(shell find $(mkfile_path) -iname '*.ily' -type f)
 
-all: $(PDFS) $(PDFS_ANNOTATED)
+all: $(OUTPUT_DIR) $(PDFS_ANNOTATED)
 
-$(OUTPUT_DIR):
+$(OUTPUT_DIR) $(OUTPUT_DIR)/urtext $(OUTPUT_DIR)/anno:
 	mkdir -p $@
+	mkdir -p $@/urtext
+	mkdir -p $@/anno
 
-$(OUTPUT_DIR)/%-annotated.pdf: %.ly $(INCLUDES)
-	mkdir -p $(OUTPUT_DIR)
-	$(LILYPOND_CMD) --evaluate='(define-public annotations #t)' -o $(basename $@) $<
+$(OUTPUT_DIR)/anno/%-g1.pdf: %.ly $(INCLUDES) Makefile
+	$(LILYPOND_CMD) $(LI_FRENCH_CLEF)  $(LI_WI_ANNO) -o $(basename $@) $<
 
-$(OUTPUT_DIR)/%-release.pdf: %.ly $(INCLUDES)
-	mkdir -p $(OUTPUT_DIR)
-	$(LILYPOND_CMD) --evaluate='(define-public annotations #f)' -o $(basename $@) $<
+$(OUTPUT_DIR)/anno/%-g2.pdf: %.ly $(INCLUDES) Makefile
+	$(LILYPOND_CMD) $(LI_VIOLIN_CLEF)  $(LI_WI_ANNO) -o $(basename $@) $<
 
+$(OUTPUT_DIR)/urtext/%-g1.pdf: %.ly $(INCLUDES) Makefile
+	$(LILYPOND_CMD) $(LI_FRENCH_CLEF)  $(LI_URTEXT) -o $(basename $@) $<
+
+$(OUTPUT_DIR)/urtext/%-g2.pdf: %.ly $(INCLUDES) Makefile
+	$(LILYPOND_CMD) $(LI_VIOLIN_CLEF)  $(LI_URTEXT) -o $(basename $@) $<
 
 clean:
-	@rm -f $(OUTPUT_DIR)
+	@$(RM) -r $(OUTPUT_DIR)
 
 .PHONY: clean all
-
-notizen.pdf: notizen.tex notes.cls
-	latexmk --shell-escape --pdflua notizen.tex

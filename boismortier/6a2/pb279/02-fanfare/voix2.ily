@@ -13,7 +13,7 @@
       g,4. ~ g,4
     }
     \repeat volta 2 {
-      e8                          | \break
+      e8                          | % \break
       e c d e f e                 |
       e4.\tre ~ e4 b,8            |
       c4 d8 e4 c8                 |

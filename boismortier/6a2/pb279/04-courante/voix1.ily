@@ -12,7 +12,7 @@
     d2\tre g4                   |
     g4 a b                      |
     c'2 g4                      |
-    a8 g a bes a4^\markup{TODO} | \break
+    a8 g a bes a4^\markup{TODO} | % \break
     g4. a8 bes4                 |
     a8 g a bes a4               |
     g4.\tre f8 e4               |
@@ -34,7 +34,7 @@
     d2\tre g4                     |
     c'2 bes4                      |
     a2 g4                         |
-    f8 e f g e f                  | \break
+    f8 e f g e f                  | % \break
     d8 e f e d\battement c        |
     d4 g, g                       |
     d8 e f4 e                     |

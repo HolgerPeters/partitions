@@ -12,7 +12,7 @@
     b,4.\tre a,8 g4   |
     r4 r4 g           |
     e4.\tre d8 c4     |
-    f8 e f g f4       | \break
+    f8 e f g f4       | % \break
     e4.\tre d8 c4     |
     f8 e f g f4       |
     e4.\tre d8 c4     |

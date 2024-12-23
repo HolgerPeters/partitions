@@ -24,7 +24,7 @@
       d2 b,2\tre            |
       c2.
     }
-    \fine \break
+    \fine % \break
 
     % rigaudon 2
     \include "minorKey.ily"

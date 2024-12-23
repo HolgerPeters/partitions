@@ -15,6 +15,7 @@
     \include "pb277/01-ouverture/partition.ily"
     \tocItem \markup{Muzette}
     \include "pb277/02-muzette/partition.ily"
+    \pageBreak
     \tocItem \markup{Viele}
     \include "pb277/03-viele/partition.ily"
     \tocItem \markup{Menuet}
@@ -31,6 +32,7 @@
     \tocSuite \markup { Suite II}
     \tocItem \markup{Prelude}
     \include "pb278/01-prelude/partition.ily"
+    \pageBreak
     \tocItem \markup{Rondeau}
     \include "pb278/02-rondeau/partition.ily"
     \tocItem \markup{Passacailles}
@@ -39,6 +41,7 @@
     \include "pb278/04-bourree/partition.ily"
     \tocItem \markup{Brunette}
     \include "pb278/05-brunette/partition.ily"
+    \pageBreak
     \tocItem \markup{Menuet I & II}
     \include "pb278/06-menuet/partition.ily"
   }
@@ -51,16 +54,20 @@
     \include "pb279/01-allemande/partition.ily"
     \tocItem \markup{Fanfare}
     \include "pb279/02-fanfare/partition.ily"
+    \pageBreak
     \tocItem \markup{Menuet}
     \include "pb279/03-menuet/partition.ily"
     \tocItem \markup{Courante}
     \include "pb279/04-courante/partition.ily"
+    \pageBreak
     \tocItem \markup{Rondeau}
     \include "pb279/05-rondeau/partition.ily"
+    \pageBreak
     \tocItem \markup{Pavanne}
     \include "pb279/06-pavanne/partition.ily"
     \tocItem \markup{Doucement}
     \include "pb279/07-doucement/partition.ily"
+    \pageBreak
     \tocItem \markup{Rigaudon}
     \include "pb279/08-rigaudon/partition.ily"
   }
