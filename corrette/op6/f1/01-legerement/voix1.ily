@@ -11,7 +11,7 @@
     g8 f16 e d e f d                                    |
     e f e d c8 c                                        |
     c8 d16 c b, c d b,                                  |
-    c8 g16 f g8 g                                       | \break
+    c8 g16 f g8 g                                       | %\break
     a8 a16 g f e d c                                    |
     b,8 d16 c d8 d\tre                                  |
     e8 g16 f  g8 g                                      |
@@ -28,12 +28,12 @@
     g8 c'8 ~ c' \breathe bes8                           |
     a8 f16 g a8 g                                       |
     f d16 e f g e f                                     |
-    d e f e d  e c d                                    | \break
+    d e f e d  e c d                                    |% \break
     b, g f e d e f g                                    |
     e d e f g8 e                                        |
-    e8\tre d8 ~ d e16 f                                 |
+    e8\tre \ifAnno {d8 ~ d8 } {d4} e16 f                |
     g8 c c c                                            |
-    b,16 a, g,8 ~ [g,] g                                |
+    b,16 a, \ifAnno {g,8 ~ g,} g,4 g8                   |
     a8 g a g                                            |
     fis e16 fis g8 fis16 e                              |
     d16 e d c b, d g fis                                |
@@ -78,7 +78,5 @@
     b,8 g, c f                                          |
     e4 d\tre                                            |
     c4.
-
-
   }
 }

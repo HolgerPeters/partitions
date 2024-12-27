@@ -13,6 +13,18 @@
       "Libertinus Serif"
       (/ myStaffSize 20)))
 
+  tocItemMarkup = \tocItemWithDotsMarkup
+
+  tocSuiteMarkup = \markup \large \column {
+    \hspace #1
+    \fill-line { \null \italic \fromproperty #'toc:text \null }
+    \hspace #1
+  }
+
+  tocTitleMarkup = \markup \huge \column {
+    \fill-line { \null "Table des matières" \null }
+    \hspace #1
+  }
     scoreTitleMarkup = \markup {
       \fill-line {
         \null

@@ -9,6 +9,7 @@
 	\line { \fontsize #4 "Fantaisie"}
       }
     }
+    shortInstrumentName = "D"
     midiInstrument = "recorder"
     \consists "Ambitus_engraver"
   } {

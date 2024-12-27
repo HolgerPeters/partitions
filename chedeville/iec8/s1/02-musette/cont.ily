@@ -1,0 +1,4 @@
+
+\figuremode {
+  s1
+  }

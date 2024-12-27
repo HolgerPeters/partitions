@@ -3,13 +3,18 @@
 \include "stemside.ily"
 
 \book {
+  \include "layout.ily"
+  \markuplist \table-of-contents
+  \header {
+    \include "titre.ily"
+  }
   \bookpart {
-    \include "layout.ily"
-    \header {
-      \include "titre.ily"
-    }
+    \tocSuite \markup {Fantaisie I}
+    \tocItem \markup{Légèrement}
     \include "f1/01-legerement/p1-french.ily"
+    \tocItem \markup{Gracieusement}
     \include "f1/02-musette/p1-french.ily"
+    \tocItem \markup{Gaiement}
     \include "f1/03-gaiement/p1-french.ily"
   }
 }

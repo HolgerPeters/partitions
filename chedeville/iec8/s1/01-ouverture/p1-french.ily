@@ -11,7 +11,7 @@
         midiInstrument = "recorder"
         \consists "Ambitus_engraver"
       } {
-	\clef french
+	\altoClef
 	\include "voix1a.ily"
 	\include "voix1b.ily"
 	\fine

@@ -9,7 +9,7 @@
   } {
     << {
       \clef french
-      {\include "voix1a.ily" }
+      {\include "voix1.ily" }
     }
   >>
   }
