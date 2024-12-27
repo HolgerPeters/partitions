@@ -4,6 +4,7 @@
   }
   \new Staff \with {
     midiInstrument = "recorder"
+    instrumentName = "4"
     \consists "Ambitus_engraver"
   } {
     << {
@@ -12,7 +13,7 @@
     }
   >>
   }
-    \include "../../d-layout.ily"
+  \include "../../d-layout.ily"
   \midi {
     \tempo 4 = 120
   }

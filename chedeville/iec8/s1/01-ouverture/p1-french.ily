@@ -31,5 +31,7 @@
     >>
   >>
   \include "../../p-layout.ily"
-  \midi { }
+  \midi {
+    \tempo 2 = 80
+  }
 }

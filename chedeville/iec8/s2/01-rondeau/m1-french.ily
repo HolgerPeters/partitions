@@ -4,7 +4,7 @@
   }
   \new Staff \with {
     midiInstrument = "recorder"
-    instrumentName = "3"
+    instrumentName = "1"
     \consists "Ambitus_engraver"
   } {
     << {\clef french

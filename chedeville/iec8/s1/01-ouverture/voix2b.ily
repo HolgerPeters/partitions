@@ -16,7 +16,7 @@
   g4. a8 b4           |
   c'4 a g             |
   d'4. c'8 b4         |
-  a4 d' d             | \break
+  a4 d' d             | %\break
   g4 b, g,            |
   c2 r4               |
   r4 g g d4 d8 c d b, |
@@ -24,7 +24,7 @@
   f4 d2               |
   g4. f8 e4           |
   f g g,              |
-  c2 r4               | \break
+  c2 r4               | %\break
   r4 g g              |
   g f8 e f g          |
   e4 fis d            |

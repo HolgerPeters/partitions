@@ -15,5 +15,7 @@
   >>
   }
   \include "../../d-layout.ily"
-  \midi { }
+  \midi {
+    \tempo 2 = 100
+  }
 }

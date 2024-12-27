@@ -4,6 +4,7 @@
   }
   \new Staff \with {
     midiInstrument = "recorder"
+    instrumentName = "5"
     \consists "Ambitus_engraver"
   } {
     <<

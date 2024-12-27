@@ -11,7 +11,6 @@
   \bookpart {
     \header {
       \include "s1/titre.ily"
-      instrument = "Dessus"
     }
     \tocSuite \markup {Ire Suite}
     \tocItem \markup{Ouverture}
