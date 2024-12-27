@@ -7,7 +7,7 @@
   c'2. b4              |
   a2 f                 |
   g2 b,4 g,            |
-  c2 a2                |
+  c2 a,2               |
   d8 e fis d g2 ~      |
   g2 fis               |
   g2 g,                |

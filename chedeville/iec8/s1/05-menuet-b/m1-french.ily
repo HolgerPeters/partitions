@@ -13,7 +13,7 @@
       }
     >>
   }
-  \layout { }
+    \include "../../d-layout.ily"
   \midi {
     \tempo 4 = 120
   }

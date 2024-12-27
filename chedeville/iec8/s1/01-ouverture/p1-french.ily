@@ -2,35 +2,34 @@
   \header {
     \include "titre.ily"
   }
-  \new StaffGroup {
+  <<
+    \new StaffGroup \with {
+      instrumentName = "1"
+    }
     <<
       \new Staff \with {
-	midiInstrument = "recorder"
-	\consists "Ambitus_engraver"
+        midiInstrument = "recorder"
+        \consists "Ambitus_engraver"
       } {
-	<<
-	  {
-	    \clef french
-	    {\include "voix1a.ily" }
-	    {\include "voix1b.ily" }
-	  }
-	>>
+	\clef french
+	\include "voix1a.ily"
+	\include "voix1b.ily"
+	\fine
       }
-      \new Voice {
-	{\include "voix2a.ily"}
-	{\include "voix2b.ily"}
-	}
-      \new FiguredBass \with {
+      \new Staff = bassStaff \with {
+        midiInstrument = "cello"
+      } {
+        \include "voix2a.ily"
+        \include "voix2b.ily"
+	\fine
       }
-      {
-	<< {
-	  { \include "conta.ily"}
-	  { \include "contb.ily"}
-	  }
-	>>
+      \context Staff = bassStaff {
+        \include "conta.ily"
+        \include "contb.ily"
+	% \fine
       }
     >>
-  }
-  \layout { }
+  >>
+  \include "../../p-layout.ily"
   \midi { }
 }

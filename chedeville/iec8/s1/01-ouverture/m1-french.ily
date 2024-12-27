@@ -4,14 +4,16 @@
   }
   \new Staff \with {
     midiInstrument = "recorder"
+    instrumentName = "1"
     \consists "Ambitus_engraver"
   } {
-    << {\clef french
-    {\include "voix1a.ily" }
-    {\include "voix1b.ily" }
+    << {
+      \altoClef
+      {\include "voix1a.ily" }
+      {\include "voix1b.ily" }
     }
   >>
   }
-  \layout { }
+  \include "../../d-layout.ily"
   \midi { }
 }

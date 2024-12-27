@@ -4,6 +4,7 @@
   }
   \new Staff \with {
     midiInstrument = "recorder"
+    instrumentName = "3"
     \consists "Ambitus_engraver"
   } {
     << {\clef french
@@ -11,6 +12,6 @@
     }
   >>
   }
-  \layout { }
+    \include "../../d-layout.ily"
   \midi { }
 }

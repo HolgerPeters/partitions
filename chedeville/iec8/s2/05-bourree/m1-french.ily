@@ -13,6 +13,6 @@
       }
     >>
   }
-  \layout { }
+    \include "../../d-layout.ily"
   \midi { }
 }
