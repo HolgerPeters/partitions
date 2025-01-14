@@ -2,8 +2,7 @@
   \header {
     \include "titre.ily"
   }
-  \new ChoirStaff \with {
-  }
+  \new ChoirStaff\with {instrumentName = "3"}
   <<
     \new Staff \with {
       midiInstrument = "recorder"
@@ -20,7 +19,7 @@
     << \clef french { \include "voix2.ily"} >>
   }
   >>
-  \include "layoutDefaults.ily"
+  \include "../../p-layout.ily"
   \midi {
     \tempo 2 = 50
   }

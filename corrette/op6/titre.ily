@@ -1,5 +1,0 @@
-title = "Six Fantasies"
-composer = "Michel Corrette (1707-1795)"
-opus = "VIᵉ Œuvre"
-arranger = "mise en page par Holger Peters"
-\include "../../revision_fr.ily"

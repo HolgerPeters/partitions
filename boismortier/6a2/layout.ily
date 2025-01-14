@@ -5,8 +5,8 @@
 \paper {
   myStaffSize = #20
 
-  ragged-bottom = ##t
   left-margin = 18\mm
+  right-margin = 18\mm
 
   #(define fonts
     (make-pango-font-tree
@@ -14,7 +14,6 @@
       "Libertinus Serif"
       "Libertinus Serif"
       (/ myStaffSize 20)))
-
 
   tocSuiteMarkup = \markup \large \column {
     \hspace #1
@@ -52,12 +51,11 @@
       }
     }
   }
-
   oddFooterMarkup = \markup {
     \fill-line {
-	\fontsize #1 \fromproperty #'header:shortComposer
-	\fontsize #1 \fromproperty #'header:title
-	\fontsize #1 \fromproperty #'header:opus
+      \fontsize #1 \fromproperty #'header:shortComposer
+      \fontsize #1 \fromproperty #'header:title
+      \fontsize #1 \fromproperty #'header:opus
     }
   }
   evenFooterMarkup = \oddFooterMarkup

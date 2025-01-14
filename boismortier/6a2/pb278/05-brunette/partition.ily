@@ -2,19 +2,21 @@
   \header {
     piece = "Brunette"
   }
-  \new ChoirStaff <<
+  \new ChoirStaff \with {
+    instrumentName = "5"
+  } <<
     \new Staff \with {
       midiInstrument = "recorder"
     } {
-      << \clef french {\include "voix1.ily" }>>
+      << \altoClef {\include "voix1.ily" }>>
     }
     \new Staff \with {
       midiInstrument = "recorder"
     } {
-      << \clef french {\include "voix2.ily"} >>
+      << \altoClef {\include "voix2.ily"} >>
     }
   >>
-  \include "layoutDefaults.ily"
+  \include "../../p-layout.ily"
   \midi {
     \tempo 4 = 96
   }

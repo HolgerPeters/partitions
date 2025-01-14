@@ -9,7 +9,7 @@
   \include "layout.ily"
   \bookpart {
     \tocSuite \markup {Ire Suite}
-    \tocItem \markup{Ouverture}
+    \tocItem \markup{Musette}
     \include "s1/02-musette/partition.ily"
   }
 }

@@ -14,16 +14,13 @@
     \new Staff \with {
       midiInstrument = "recorder"
     } {
-      << \clef french {
-	{\include "voix1.ily"}
-      }
-    >>
+      << \altoClef {\include "voix1.ily"} >>
   }
   \new Staff \with {
     midiInstrument = "recorder"
   }
   {
-    << \clef french { \include "voix2.ily"} >>
+    << \altoClef { \include "voix2.ily"} >>
   }
   >>
   \include "layoutPremiere.ily"

@@ -1,0 +1,19 @@
+\score {
+  \header {
+    \include "titre.ily"
+  }
+  <<
+    \new Staff \with {
+      midiInstrument = "recorder"
+      instrumentName = "1"
+    } {
+      \ifAnno {\clef french} {\clef violin}
+      <<  {\include "voix1.ily"} >>
+    }
+  >>
+  \midi {
+    \tempo 2 = 50
+  }
+  \layout {
+  }
+}

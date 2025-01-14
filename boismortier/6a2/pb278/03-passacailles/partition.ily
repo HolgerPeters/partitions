@@ -1,36 +1,22 @@
-
-
 \score {
   \header {
-    piece = "Passacailles"
+    \include "titre.ily"
   }
-  \new ChoirStaff <<
+  \new ChoirStaff \with {
+    instrumentName = "3"
+  } <<
     \new Staff \with {
       midiInstrument = "recorder"
     } {
-      << \clef french {
-	\include "minorKey.ily"
-	\include "voix1a.ily"
-	\key g \major
-	\include "voix1b.ily"
-	\include "minorKey.ily"
-	\include "voix1c.ily"
-    }>>
+      \altoClef \include "voix1.ily"
     }
     \new Staff \with {
       midiInstrument = "recorder"
     } {
-      << \clef french {
-	\include "minorKey.ily"
-	\include "voix2a.ily"
-	\key g \major
-	\include "voix2b.ily"
-	\include "minorKey.ily"
-	\include "voix2c.ily"
-    } >>
+      \altoClef \include "voix2.ily"
     }
   >>
-  \include "layoutDefaults.ily"
+  \include "../../p-layout.ily"
   \midi {
     \tempo 4 = 120
   }

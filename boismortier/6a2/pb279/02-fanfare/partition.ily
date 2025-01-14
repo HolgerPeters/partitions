@@ -3,6 +3,7 @@
     \include "titre.ily"
   }
   \new ChoirStaff \with {
+    instrumentName = "2"
   }
   <<
     \new Staff \with {
@@ -20,7 +21,7 @@
     << \clef french { \include "voix2.ily"} >>
   }
   >>
-  \include "layoutDefaults.ily"
+  \include "../../p-layout.ily"
   \midi {
     \tempo 2 = 50
   }

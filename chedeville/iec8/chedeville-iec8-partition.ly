@@ -15,6 +15,8 @@
     \tocSuite \markup {Ire Suite}
     \tocItem \markup{Ouverture}
     \include "s1/01-ouverture/p1-french.ily"
+    \tocItem \markup{Musette}
+    \include "s1/02-musette/partition.ily"
 %    \tocItem \markup{Musette}
 %    \include "s1/02-musette/p1-french.ily"
 %    \tocItem \markup{Rondeau}

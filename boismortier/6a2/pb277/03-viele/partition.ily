@@ -2,26 +2,21 @@
   \header {
     \include "titre.ily"
   }
-  \new ChoirStaff <<
+  \new ChoirStaff \with {
+    instrumentName = "3"
+  } <<
     \new Staff \with {
       midiInstrument = "recorder"
     } {
-      \override Staff.Rest.style = #'classical
-      << \clef french { \include "voix1.ily" }>>
+      \clef french { \include "voix1.ily" }
     }
     \new Staff \with {
       midiInstrument = "recorder"
     } {
-      \override Staff.Rest.style = #'classical
-      << \clef french { \include "voix2.ily"} >>
+      \clef french { \include "voix2.ily"}
     }
   >>
-  \layout {
-    \context {
-      \Staff
-      \StaffDefaults
-    }
-  }
+  \include "../../p-layout.ily"
   \midi {
     \tempo 2 = 100
   }

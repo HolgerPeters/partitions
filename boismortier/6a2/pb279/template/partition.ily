@@ -3,6 +3,7 @@
     \include "titre.ily"
   }
   \new ChoirStaff \with {
+    instrumentName = "X"
   }
   <<
     \new Staff \with {

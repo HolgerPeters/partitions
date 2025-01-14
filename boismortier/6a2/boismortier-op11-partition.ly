@@ -2,6 +2,7 @@
 #(use-modules (guile-user))
 
 \include "stemside.ily"
+\include "clef.ily"
 
 \book {
   \include "layout.ily"
@@ -13,6 +14,7 @@
     \tocSuite \markup { Suite I}
     \tocItem \markup{Ouverture}
     \include "pb277/01-ouverture/partition.ily"
+    \pageBreak
     \tocItem \markup{Muzette}
     \include "pb277/02-muzette/partition.ily"
     \pageBreak
@@ -32,7 +34,6 @@
     \tocSuite \markup { Suite II}
     \tocItem \markup{Prelude}
     \include "pb278/01-prelude/partition.ily"
-    \pageBreak
     \tocItem \markup{Rondeau}
     \include "pb278/02-rondeau/partition.ily"
     \tocItem \markup{Passacailles}
@@ -42,7 +43,7 @@
     \tocItem \markup{Brunette}
     \include "pb278/05-brunette/partition.ily"
     \pageBreak
-    \tocItem \markup{Menuet I & II}
+    \tocItem \markup{"1ᵉʳ et 2ᵈ Menuet"}
     \include "pb278/06-menuet/partition.ily"
   }
   \bookpart {
@@ -54,9 +55,9 @@
     \include "pb279/01-allemande/partition.ily"
     \tocItem \markup{Fanfare}
     \include "pb279/02-fanfare/partition.ily"
-    \pageBreak
     \tocItem \markup{Menuet}
     \include "pb279/03-menuet/partition.ily"
+    \pageBreak
     \tocItem \markup{Courante}
     \include "pb279/04-courante/partition.ily"
     \pageBreak
