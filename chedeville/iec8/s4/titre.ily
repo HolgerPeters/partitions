@@ -1,5 +1,0 @@
-composer  = "Esprit Philippe Chédeville"
-opus      = "IEC 8"
-subtitle  = "Neuvième Recueil de pieces choisies"
-title     = "Quatrième Suite"
-\include "../../../revision_fr.ily"

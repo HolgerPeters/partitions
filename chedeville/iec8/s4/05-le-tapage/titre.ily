@@ -1,1 +1,0 @@
-piece = "Le Tapage"
