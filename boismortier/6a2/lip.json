@@ -1,0 +1,61 @@
+{
+  "targetDir": "out",
+  "includeDirs": [
+    ".",
+    "../../util"
+  ],
+  "toolchainDir": ".lip-toolchains",
+  "fontStoreDir": "/Users/holger/.local/share/lip/fonts",
+  "profiles": {
+    "anno-g1": {
+      "annotations": true,
+      "parameters": {
+        "alto-clef": "french"
+      }
+    },
+    "anno-g2": {
+      "annotations": true,
+      "parameters": {
+        "alto-clef": "violin"
+      }
+    },
+    "urtext-g1": {
+      "annotations": false,
+      "parameters": {
+        "alto-clef": "french"
+      }
+    },
+    "urtext-g2": {
+      "annotations": false,
+      "parameters": {
+        "alto-clef": "violin"
+      }
+    },
+    "screen-g1": {
+      "annotations": true,
+      "parameters": {
+        "alto-clef": "french",
+        "screen": true
+      }
+    },
+    "screen-g2": {
+      "annotations": true,
+      "parameters": {
+        "alto-clef": "violin",
+        "screen": true
+      }
+    },
+    "midi": {
+      "output": "midi",
+      "annotations": false,
+      "parameters": {
+        "alto-clef": "french"
+      }
+    }
+  },
+  "fmt": {
+    "alternatives": {
+      "ifAnno": 2
+    }
+  }
+}

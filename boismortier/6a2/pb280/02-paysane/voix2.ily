@@ -1,5 +1,5 @@
 \transpose c c' {
-  \once \override Staff.TimeSignature.style = #'single-digit
+  \once \override Staff.TimeSignature.style = #'single-number
   \time 2/2 \key g \major
   \repeat volta 2 {
   \partial 4 b4            |

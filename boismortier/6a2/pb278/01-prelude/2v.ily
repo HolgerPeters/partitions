@@ -4,7 +4,7 @@
   }
   \new Staff \with {
     instrumentName = "1"
-      midiInstrument = "recorder"
+    midiInstrument = "recorder"
   } <<
     \new Voice {\altoClef {\voiceOne \include "voix1.ily"} }
     \new Voice {\altoClef {\voiceTwo \include "voix2.ily"} }

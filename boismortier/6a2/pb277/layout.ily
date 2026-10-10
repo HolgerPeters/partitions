@@ -7,12 +7,9 @@
     indent = 0\mm
       myStaffSize = #20
 
-    #(define fonts
-    (make-pango-font-tree
-      "Libertinus Serif"
-      "Libertinus Serif"
-      "Libertinus Serif"
-      (/ myStaffSize 20)))
+    property-defaults.fonts.serif = "Libertinus Serif"
+    property-defaults.fonts.sans = "Libertinus Serif"
+    property-defaults.fonts.typewriter = "Libertinus Serif"
 
     scoreTitleMarkup = \markup {
       \fill-line {

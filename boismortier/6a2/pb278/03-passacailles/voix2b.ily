@@ -1,7 +1,7 @@
 \transpose c c'' {
   g2 r4            |
   r4 b,8 a, b, c   |
-  d4 g, c          | % 50
+  d4 g, c          |
   b,8 c a,2\tre    |
   g2 r4            |
   r4 b,8 a, b, c   |

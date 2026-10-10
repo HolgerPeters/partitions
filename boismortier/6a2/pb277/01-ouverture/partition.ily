@@ -5,8 +5,8 @@
   \new ChoirStaff \with {
     instrumentName = \markup {
       \center-column {
-	\line {\fontsize #8 "Iʳᵉ" }
-	\line { \fontsize #8 "Suite"}
+        \line {\fontsize #8 "Iʳᵉ" }
+        \line { \fontsize #8 "Suite"}
       }
     }
   } <<
@@ -15,16 +15,16 @@
 
     } {
       << \clef french {
-	{\include "voix1.ily"}
-      }
-    >>
-  }
-  \new Staff \with {
-    midiInstrument = "recorder"
-  } {
-    << \clef french { \include "voix2.ily"} >>
-  }
->>
+          {\include "voix1.ily"}
+        }
+      >>
+    }
+    \new Staff \with {
+      midiInstrument = "recorder"
+    } {
+      << \clef french { \include "voix2.ily"} >>
+    }
+  >>
   \include "layoutPremiere.ily"
   \midi {
     \tempo 2 = 50

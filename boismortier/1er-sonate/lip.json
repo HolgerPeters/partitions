@@ -1,0 +1,20 @@
+{
+  "targetDir": "out",
+  "includeDirs": [
+    ".",
+    "../../util"
+  ],
+  "toolchainDir": ".lip-toolchains",
+  "fontStoreDir": "/Users/holger/.local/share/lip/fonts",
+  "profiles": {
+    "print": {},
+    "screen": {
+      "parameters": {
+        "screen": true
+      }
+    },
+    "midi": {
+      "output": "midi"
+    }
+  }
+}

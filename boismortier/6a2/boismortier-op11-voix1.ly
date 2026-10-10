@@ -1,4 +1,4 @@
-\version "2.24.1"
+\version "2.26.0"
 #(use-modules (guile-user))
 
 \include "stemside.ily"

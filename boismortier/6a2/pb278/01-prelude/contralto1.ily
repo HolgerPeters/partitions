@@ -6,8 +6,8 @@
     midiInstrument = "recorder"
     instrumentName = \markup {
       \center-column {
-	\line {\fontsize #8 "IIᵉ" }
-	\line { \fontsize #8 "Suite"}
+        \line {\fontsize #8 "IIᵉ" }
+        \line { \fontsize #8 "Suite"}
       }
     }
   } {

@@ -1,19 +1,20 @@
- % #(ly:font-config-add-font " path/to/font-file ")
- #(ly:font-config-add-directory "../../fonts")
- #(ly:font-config-add-directory "../../../fonts") % compilation happens in ./out so we need to get one up
+% #(ly:font-config-add-font " path/to/font-file ")
+#(ly:font-config-add-directory "../../fonts")
+#(ly:font-config-add-directory "../../../fonts") % compilation happens in ./out so we need to get one up
 
 \paper {
+  % lip profiles "screen*" (parameter screen = #t): 16:10 landscape page for
+  % reading on a laptop screen; other profiles keep their paper size
+  #(if (module-ref (resolve-module '(guile-user)) 'screen #f)
+       (set-paper-size '(cons (* 297 mm) (* 185.6 mm))))
   myStaffSize = #20
 
   left-margin = 18\mm
   right-margin = 18\mm
 
-  #(define fonts
-    (make-pango-font-tree
-      "Libertinus Serif"
-      "Libertinus Serif"
-      "Libertinus Serif"
-      (/ myStaffSize 20)))
+  property-defaults.fonts.serif = "Libertinus Serif"
+  property-defaults.fonts.sans = "Libertinus Serif"
+  property-defaults.fonts.typewriter = "Libertinus Serif"
 
   tocSuiteMarkup = \markup \large \column {
     \hspace #1
@@ -37,17 +38,17 @@
     \fill-line {
       \null
       \center-column {
-	\fontsize #8 \fromproperty #'header:title
-	\fontsize #4 \fromproperty #'header:subtitle
-	\fontsize #4 \fromproperty #'header:subsubtitle
-	\fromproperty #'header:instrument
-	" "
+        \fontsize #8 \fromproperty #'header:title
+        \fontsize #4 \fromproperty #'header:subtitle
+        \fontsize #4 \fromproperty #'header:subsubtitle
+        \fromproperty #'header:instrument
+        " "
       }
       \column {
-	" "
-	\right-align { \fromproperty #'header:composer }
-	\right-align { \fromproperty #'header:opus }
-	\right-align { \italic \small \fromproperty #'header:arranger }
+        " "
+        \right-align { \fromproperty #'header:composer }
+        \right-align { \fromproperty #'header:opus }
+        \right-align { \italic \small \fromproperty #'header:arranger }
       }
     }
   }

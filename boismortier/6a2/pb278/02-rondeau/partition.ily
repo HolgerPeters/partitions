@@ -3,7 +3,7 @@
     piece = "Rondeau"
   }
   \new ChoirStaff \with {
-      instrumentName = "2"
+    instrumentName = "2"
   } <<
     \new Staff \with {
       midiInstrument = "recorder"

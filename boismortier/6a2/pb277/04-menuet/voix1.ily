@@ -1,14 +1,14 @@
 \transpose c c'' {
-  \once \override Staff.TimeSignature.style = #'single-digit
+  \once \override Staff.TimeSignature.style = #'single-number
   \time 3/4
   \repeat volta 2 {
-    c8 d e f g4 |
-    c c c |
-    c8 d e f g4 |
-    c2. |
-    a4 g\battement f |
-    g f\battement e |
-    f4 e2\battement |
+    c8 d e f g4      | % 1
+    c c c            | % 2
+    c8 d e f g4      | % 3
+    c2.              | % 4
+    a4 g\battement f | % 5
+    g f\battement e  | % 6
+    f4 e2\battement  | % 7
   }
   \alternative {
     {
@@ -19,21 +19,21 @@
     }
   }
   \repeat volta 2 {
-    g,8 a, b, c d4    |
-    g,4 g, g,         |
-    g,8 a, b, c d4    |
-    g,2.              |
-    e4 d8 e c4        |
-    f4 e8 f8 d4       |
-    g4 f e            |
-    d8 c d e d4       |
-    g,8 a, b, c d4    |
-    g,4 g, g,         |
-    g,8 a, b, c d4    |
-    g,2.              |
-    e4 d8 e c4        |
-    f4 e8 f8 d4       |
-    g4 g, b,          |
+    g,8 a, b, c d4 | % 10
+    g,4 g, g,      | % 11
+    g,8 a, b, c d4 | % 12
+    g,2.           | % 13
+    e4 d8 e c4     | % 14
+    f4 e8 f8 d4    | % 15
+    g4 f e         | % 16
+    d8 c d e d4    | % 17
+    g,8 a, b, c d4 | % 18
+    g,4 g, g,      | % 19
+    g,8 a, b, c d4 | % 20
+    g,2.           | % 21
+    e4 d8 e c4     | % 22
+    f4 e8 f8 d4    | % 23
+    g4 g, b,       | % 24
     c2.
   }\fine
 }

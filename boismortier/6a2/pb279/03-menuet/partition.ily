@@ -8,16 +8,16 @@
       midiInstrument = "recorder"
     } {
       << \clef french {
-	{\include "voix1.ily"}
-      }
-    >>
-  }
-  \new Staff \with {
-    midiInstrument = "recorder"
-  }
-  {
-    << \clef french { \include "voix2.ily"} >>
-  }
+          {\include "voix1.ily"}
+        }
+      >>
+    }
+    \new Staff \with {
+      midiInstrument = "recorder"
+    }
+    {
+      << \clef french { \include "voix2.ily"} >>
+    }
   >>
   \include "../../p-layout.ily"
   \midi {
